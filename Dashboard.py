@@ -249,11 +249,6 @@ def clickable_metric(label, value, color, key):
 
 
 #######################
-# Load data
-df_reshaped = pd.read_csv('data/us-population-2010-2019-reshaped.csv')
-
-
-#######################
 # Sidebar
 with st.sidebar:
     st.title('Custom Options')
