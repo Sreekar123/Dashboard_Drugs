@@ -1,0 +1,1001 @@
+Item Code,Warehouse Name,Stock Quantity
+409.01,CMS Jagtial,3352
+409.01,CMS Warangal (New),7006
+409.01,CMS Peddapalli,1355
+409.01,CMS Hyderabad,4747
+409.01,CMS Vikarabad,1608
+409.01,CMS Ranga Reddy,1241
+409.01,CMS Kamareddy,1325
+409.01,CMS Karimnagar,167
+409.01,CMS Medchal Malkajgiri,1766
+409.01,CMS Hanumakonda (previously called CMS Warangal),126
+409.01,CMS Mancherial,2108
+409.01,CMS Bhadradri Kothagudem,2078
+409.01,CMS Adilabad,129
+409.01,CMS Kumuram Bheem Asifabad,2022
+409.01,CMS Khammam,4759
+409.01,CMS SIDDIPET,1406
+409.01,CMS Nalgonda,5
+409.01,CMS Yadadri Bhongir,5
+409.01,CMS Wanaparthy,2334
+409.01,CMS Mahabubnagar,185
+409.01,CMS Jogulamba Gadwal,2330
+409.01,CMS Narayanpet,1579
+409.01,CMS Rajanna Sircilla,3181
+409.01,CMS Suryapet,2145
+409.01,CMS Jayashankar Bhupalpally,1404
+409.01,CMS Mulugu,1618
+409.01,CMS Mahabubabad,2613
+409.01,CMS Medak (New),1949
+409.01,CMS Nizamabad,7433
+409.01,CMS Nagarkurnool,742
+409.01,CMS Nirmal,1943
+409.01,CMS Jangaon,815
+409.01,CMS Sangareddy (previously called CMS Medak),411
+2119,CMS Mulugu,5805
+2119,CMS Adilabad,13580
+2119,CMS Jagtial,440
+2119,CMS Rajanna Sircilla,2575
+2119,CMS Medchal Malkajgiri,4525
+2119,CMS Nizamabad,57040
+2119,CMS Hyderabad,11216
+2119,CMS Khammam,3285
+2119,CMS Nagarkurnool,3990
+2119,CMS Nirmal,1300
+2119,CMS Kamareddy,19090
+2119,CMS Karimnagar,185
+2119,CMS Nalgonda,282
+2119,CMS Suryapet,32860
+2119,CMS Jayashankar Bhupalpally,24190
+2119,CMS Jogulamba Gadwal,5990
+2119,CMS Bhadradri Kothagudem,11900
+2119,CMS Warangal (New),52456
+2119,CMS Peddapalli,3353
+2119,CMS SIDDIPET,17735
+2119,CMS Kumuram Bheem Asifabad,4570
+2119,CMS Hanumakonda (previously called CMS Warangal),1002
+2119,CMS Mancherial,11810
+2119,CMS Ranga Reddy,777
+2119,CMS Yadadri Bhongir,12055
+2119,CMS Wanaparthy,4490
+2119,CMS Mahabubnagar,1843
+2119,CMS Jangaon,7960
+2119,CMS Vikarabad,5145
+2119,CMS Sangareddy (previously called CMS Medak),3261
+2119,CMS Mahabubabad,2280
+2119,CMS Medak (New),20650
+2119,CMS Narayanpet,7495
+197,CMS Bhadradri Kothagudem,150
+197,CMS Kumuram Bheem Asifabad,15455
+197,CMS Nalgonda,1126938
+197,CMS Warangal (New),979223
+197,CMS Hanumakonda (previously called CMS Warangal),1297061
+197,CMS Mancherial,3700
+197,CMS Mahabubnagar,1574019
+197,CMS Medak (New),32751
+197,CMS Medchal Malkajgiri,100400
+197,CMS Rajanna Sircilla,5990
+197,CMS Adilabad,993960
+197,CMS Jagtial,20308
+197,CMS Sangareddy (previously called CMS Medak),366000
+197,CMS Vikarabad,65467
+197,CMS Mahabubabad,56530
+197,CMS Mulugu,427550
+197,CMS Jangaon,89179
+197,CMS Jogulamba Gadwal,26206
+197,CMS Yadadri Bhongir,8350
+197,CMS Ranga Reddy,1368871
+197,CMS SIDDIPET,691300
+197,CMS Peddapalli,500
+197,CMS Jayashankar Bhupalpally,5200
+197,CMS Suryapet,150479
+197,CMS Karimnagar,829626
+197,CMS Kamareddy,7000
+197,CMS Nirmal,85000
+197,CMS Nagarkurnool,84350
+197,CMS Wanaparthy,57500
+197,CMS Khammam,575630
+197,CMS Hyderabad,3736824
+197,CMS Nizamabad,338038
+197,CMS Narayanpet,7600
+198,CMS Hyderabad,427487
+198,CMS Nizamabad,97894
+198,CMS Medchal Malkajgiri,32640
+198,CMS Adilabad,52484
+198,CMS Kamareddy,30740
+198,CMS Vikarabad,14560
+198,CMS Sangareddy (previously called CMS Medak),39045
+198,CMS SIDDIPET,46376
+198,CMS Hanumakonda (previously called CMS Warangal),13531
+198,CMS Yadadri Bhongir,3950
+198,CMS Nirmal,4290
+198,CMS Mancherial,19650
+198,CMS Nalgonda,13602
+198,CMS Ranga Reddy,67325
+198,CMS Suryapet,20940
+198,CMS Rajanna Sircilla,13765
+198,CMS Warangal (New),88295
+198,CMS Karimnagar,42689
+198,CMS Bhadradri Kothagudem,25300
+198,CMS Wanaparthy,4050
+198,CMS Nagarkurnool,550
+198,CMS Jogulamba Gadwal,6820
+198,CMS Jayashankar Bhupalpally,16720
+198,CMS Kumuram Bheem Asifabad,9970
+198,CMS Mulugu,17600
+198,CMS Khammam,48900
+198,CMS Narayanpet,4770
+198,CMS Peddapalli,20350
+198,CMS Mahabubabad,34138
+198,CMS Medak (New),8850
+198,CMS Mahabubnagar,15633
+198,CMS Jagtial,18500
+198,CMS Jangaon,31320
+525,CMS Vikarabad,580500
+525,CMS Nalgonda,2276052
+525,CMS Kamareddy,1096250
+525,CMS Khammam,4344593
+525,CMS Nirmal,239062
+525,CMS Wanaparthy,287599
+525,CMS Jagtial,216670
+525,CMS Nagarkurnool,564214
+525,CMS Mulugu,1479638
+525,CMS Adilabad,1720954
+525,CMS Mahabubnagar,1358317
+525,CMS Jangaon,1295640
+525,CMS Sangareddy (previously called CMS Medak),1213350
+525,CMS Yadadri Bhongir,107820
+525,CMS Nizamabad,3126845
+525,CMS Jogulamba Gadwal,519214
+525,CMS Ranga Reddy,2391574
+525,CMS Mancherial,92901
+525,CMS Narayanpet,681194
+525,CMS Kumuram Bheem Asifabad,265910
+525,CMS Hanumakonda (previously called CMS Warangal),6450444
+525,CMS Rajanna Sircilla,221001
+525,CMS SIDDIPET,1831798
+525,CMS Medchal Malkajgiri,387492
+525,CMS Peddapalli,439450
+525,CMS Medak (New),848550
+525,CMS Bhadradri Kothagudem,1742444
+525,CMS Jayashankar Bhupalpally,246944
+525,CMS Warangal (New),3363539
+525,CMS Suryapet,1339178
+525,CMS Mahabubabad,2141286
+525,CMS Hyderabad,14595895
+525,CMS Karimnagar,1995312
+1701,CMS Kamareddy,30
+1701,CMS Hanumakonda (previously called CMS Warangal),43379
+1701,CMS Peddapalli,1600
+1701,CMS Bhadradri Kothagudem,2700
+1701,CMS Jogulamba Gadwal,5605
+1701,CMS Mulugu,61996
+1701,CMS Nirmal,2550
+1701,CMS Rajanna Sircilla,208
+1701,CMS Adilabad,29620
+1701,CMS Jagtial,9
+1701,CMS Jayashankar Bhupalpally,9375
+1701,CMS Hyderabad,2251
+1701,CMS Mahabubnagar,33582
+1701,CMS Nagarkurnool,1839
+1701,CMS Medchal Malkajgiri,1667
+1701,CMS Khammam,29900
+1701,CMS Medak (New),8170
+1701,CMS Ranga Reddy,10
+1701,CMS Karimnagar,41141
+1701,CMS Warangal (New),50188
+1701,CMS Wanaparthy,3366
+1701,CMS Kumuram Bheem Asifabad,2961
+1701,CMS Yadadri Bhongir,1805
+1701,CMS Narayanpet,4024
+1701,CMS Vikarabad,44
+1701,CMS Mancherial,7720
+1701,CMS Mahabubabad,5952
+1701,CMS Nalgonda,2829
+1701,CMS Sangareddy (previously called CMS Medak),3695
+1701,CMS Suryapet,1375
+1701,CMS Jangaon,14056
+1701,CMS SIDDIPET,12766
+1701,CMS Nizamabad,16338
+1325,CMS Nizamabad,100
+1325,CMS Sangareddy (previously called CMS Medak),100
+1325,CMS Mahabubabad,45
+1325,CMS Mahabubnagar,14918
+1325,CMS Mulugu,146
+1325,CMS Jangaon,286
+1325,CMS Narayanpet,1958
+1325,CMS Mancherial,2000
+1325,CMS Yadadri Bhongir,2420
+1325,CMS Ranga Reddy,302
+1325,CMS Peddapalli,500
+1325,CMS SIDDIPET,109
+1325,CMS Hanumakonda (previously called CMS Warangal),46
+1325,CMS Jayashankar Bhupalpally,265
+1325,CMS Warangal (New),387
+1325,CMS Suryapet,462
+1325,CMS Karimnagar,60
+1325,CMS Kumuram Bheem Asifabad,1271
+1325,CMS Jogulamba Gadwal,8825
+1325,CMS Kamareddy,100
+1325,CMS Nirmal,150
+1325,CMS Nalgonda,48
+1325,CMS Nagarkurnool,10514
+1325,CMS Khammam,899
+1325,CMS Bhadradri Kothagudem,100
+1325,CMS Vikarabad,108
+1325,CMS Hyderabad,130
+1325,CMS Wanaparthy,4300
+1325,CMS Jagtial,45
+1325,CMS Medchal Malkajgiri,168
+1325,CMS Rajanna Sircilla,2
+1325,CMS Medak (New),22651
+1325,CMS Adilabad,24
+1172,CMS Narayanpet,20710
+1172,CMS Hyderabad,558
+1172,CMS Mulugu,39500
+1172,CMS Kumuram Bheem Asifabad,20710
+1172,CMS Mahabubnagar,28100
+1172,CMS Warangal (New),92638
+1172,CMS Karimnagar,49444
+1172,CMS Suryapet,35500
+1172,CMS Jogulamba Gadwal,20700
+1172,CMS Hanumakonda (previously called CMS Warangal),43702
+1172,CMS SIDDIPET,66044
+1172,CMS Peddapalli,25400
+1172,CMS Mahabubabad,62231
+1172,CMS Jagtial,36504
+1172,CMS Medchal Malkajgiri,38000
+1172,CMS Jayashankar Bhupalpally,18711
+1172,CMS Ranga Reddy,72009
+1172,CMS Yadadri Bhongir,20700
+1172,CMS Sangareddy (previously called CMS Medak),74500
+1172,CMS Mancherial,41510
+1172,CMS Rajanna Sircilla,20704
+1172,CMS Medak (New),41406
+1172,CMS Vikarabad,29000
+1172,CMS Adilabad,15117
+1172,CMS Nagarkurnool,41500
+1172,CMS Khammam,72016
+1172,CMS Nalgonda,65400
+1172,CMS Bhadradri Kothagudem,76500
+1172,CMS Wanaparthy,20720
+1172,CMS Nizamabad,78086
+1172,CMS Nirmal,20706
+1172,CMS Kamareddy,59724
+1172,CMS Jangaon,31500
+440,CMS Nalgonda,35690
+440,CMS Wanaparthy,1080
+440,CMS Jogulamba Gadwal,5314
+440,CMS Medchal Malkajgiri,26812
+440,CMS Mahabubabad,22760
+440,CMS Mulugu,26671
+440,CMS SIDDIPET,25416
+440,CMS Nizamabad,78042
+440,CMS Bhadradri Kothagudem,31210
+440,CMS Kumuram Bheem Asifabad,4201
+440,CMS Narayanpet,3023
+440,CMS Hyderabad,94790
+440,CMS Khammam,52535
+440,CMS Nagarkurnool,3663
+440,CMS Nirmal,305
+440,CMS Kamareddy,13740
+440,CMS Karimnagar,22303
+440,CMS Suryapet,14345
+440,CMS Jayashankar Bhupalpally,7359
+440,CMS Peddapalli,11800
+440,CMS Jangaon,19759
+440,CMS Ranga Reddy,38480
+440,CMS Yadadri Bhongir,8189
+440,CMS Sangareddy (previously called CMS Medak),42703
+440,CMS Adilabad,13865
+440,CMS Jagtial,4776
+440,CMS Rajanna Sircilla,2688
+440,CMS Medak (New),27309
+440,CMS Mahabubnagar,73
+440,CMS Mancherial,8150
+440,CMS Hanumakonda (previously called CMS Warangal),57463
+440,CMS Warangal (New),112094
+440,CMS Vikarabad,14420
+1642,CMS Jangaon,117800
+1642,CMS Mahabubnagar,45751
+1642,CMS Nizamabad,165945
+1642,CMS Yadadri Bhongir,259246
+1642,CMS Peddapalli,96990
+1642,CMS Medak (New),34300
+1642,CMS Mancherial,4000
+1642,CMS Bhadradri Kothagudem,78900
+1642,CMS Mahabubabad,37300
+1642,CMS Nirmal,26000
+1642,CMS Mulugu,36000
+1642,CMS Wanaparthy,60800
+1642,CMS Karimnagar,118900
+1642,CMS Hanumakonda (previously called CMS Warangal),22800
+1642,CMS Jogulamba Gadwal,88700
+1642,CMS Warangal (New),222800
+1642,CMS Khammam,21550
+1642,CMS Rajanna Sircilla,70500
+1642,CMS Medchal Malkajgiri,168500
+1642,CMS Nalgonda,18000
+1642,CMS SIDDIPET,37599
+1642,CMS Hyderabad,155900
+1642,CMS Vikarabad,351900
+1642,CMS Kamareddy,
+1642,CMS Jagtial,71000
+1642,CMS Nagarkurnool,20000
+1642,CMS Ranga Reddy,13750
+1642,CMS Suryapet,345654
+1642,CMS Kumuram Bheem Asifabad,36000
+1642,CMS Sangareddy (previously called CMS Medak),99500
+1642,CMS Adilabad,23850
+1642,CMS Jayashankar Bhupalpally,39000
+1642,CMS Narayanpet,105800
+6,CMS Mahabubabad,109600
+6,CMS Medchal Malkajgiri,20050
+6,CMS Rajanna Sircilla,29809
+6,CMS Nizamabad,145938
+6,CMS Medak (New),345
+6,CMS Nirmal,11400
+6,CMS Ranga Reddy,58693
+6,CMS Nalgonda,133310
+6,CMS Hyderabad,748327
+6,CMS SIDDIPET,185153
+6,CMS Kumuram Bheem Asifabad,13945
+6,CMS Suryapet,16255
+6,CMS Jayashankar Bhupalpally,93318
+6,CMS Yadadri Bhongir,19800
+6,CMS Peddapalli,64700
+6,CMS Hanumakonda (previously called CMS Warangal),102687
+6,CMS Karimnagar,134500
+6,CMS Warangal (New),251895
+6,CMS Mulugu,63845
+6,CMS Jogulamba Gadwal,35260
+6,CMS Jangaon,76495
+6,CMS Mancherial,26200
+6,CMS Nagarkurnool,35845
+6,CMS Wanaparthy,10200
+6,CMS Sangareddy (previously called CMS Medak),152600
+6,CMS Kamareddy,31100
+6,CMS Mahabubnagar,102180
+6,CMS Khammam,148825
+6,CMS Narayanpet,20940
+6,CMS Adilabad,104595
+6,CMS Bhadradri Kothagudem,17650
+6,CMS Jagtial,28807
+6,CMS Vikarabad,120
+7,CMS Mahabubabad,269100
+7,CMS Suryapet,124080
+7,CMS Kumuram Bheem Asifabad,54000
+7,CMS Nizamabad,236477
+7,CMS SIDDIPET,371450
+7,CMS Nagarkurnool,113500
+7,CMS Mahabubnagar,136815
+7,CMS Ranga Reddy,51426
+7,CMS Medak (New),93900
+7,CMS Narayanpet,55200
+7,CMS Sangareddy (previously called CMS Medak),51000
+7,CMS Hyderabad,1350310
+7,CMS Bhadradri Kothagudem,161850
+7,CMS Kamareddy,104800
+7,CMS Adilabad,178150
+7,CMS Nalgonda,233040
+7,CMS Nirmal,7700
+7,CMS Wanaparthy,63200
+7,CMS Jagtial,99400
+7,CMS Mulugu,175300
+7,CMS Vikarabad,50900
+7,CMS Warangal (New),559250
+7,CMS Jangaon,195250
+7,CMS Khammam,238324
+7,CMS Jogulamba Gadwal,52000
+7,CMS Rajanna Sircilla,33710
+7,CMS Karimnagar,157628
+7,CMS Hanumakonda (previously called CMS Warangal),130847
+7,CMS Jayashankar Bhupalpally,82650
+7,CMS Peddapalli,126300
+7,CMS Medchal Malkajgiri,70600
+7,CMS Mancherial,120750
+7,CMS Yadadri Bhongir,26050
+1340,CMS Jayashankar Bhupalpally,53630
+1340,CMS SIDDIPET,367030
+1340,CMS Bhadradri Kothagudem,292100
+1340,CMS Wanaparthy,17750
+1340,CMS Nalgonda,627760
+1340,CMS Hyderabad,1734025
+1340,CMS Kumuram Bheem Asifabad,27760
+1340,CMS Hanumakonda (previously called CMS Warangal),53665
+1340,CMS Warangal (New),646230
+1340,CMS Jogulamba Gadwal,87930
+1340,CMS Mancherial,73150
+1340,CMS Nagarkurnool,98950
+1340,CMS Khammam,469670
+1340,CMS Mahabubnagar,163700
+1340,CMS Narayanpet,95000
+1340,CMS Medchal Malkajgiri,84660
+1340,CMS Medak (New),189100
+1340,CMS Rajanna Sircilla,18040
+1340,CMS Nirmal,100000
+1340,CMS Jagtial,8110
+1340,CMS Vikarabad,135970
+1340,CMS Adilabad,312860
+1340,CMS Kamareddy,124740
+1340,CMS Sangareddy (previously called CMS Medak),346200
+1340,CMS Nizamabad,611750
+1340,CMS Mahabubabad,286020
+1340,CMS Mulugu,210990
+1340,CMS Karimnagar,362320
+1340,CMS Peddapalli,45600
+1340,CMS Yadadri Bhongir,51950
+1340,CMS Suryapet,188231
+1340,CMS Ranga Reddy,496874
+1340,CMS Jangaon,105850
+1341,CMS Nizamabad,84175
+1341,CMS Medchal Malkajgiri,17150
+1341,CMS Wanaparthy,4650
+1341,CMS Mahabubabad,38100
+1341,CMS Hanumakonda (previously called CMS Warangal),6500
+1341,CMS SIDDIPET,356
+1341,CMS Kamareddy,500
+1341,CMS Peddapalli,2000
+1341,CMS Rajanna Sircilla,9500
+1341,CMS Jogulamba Gadwal,4500
+1341,CMS Karimnagar,29050
+1341,CMS Kumuram Bheem Asifabad,4600
+1341,CMS Warangal (New),87400
+1341,CMS Jangaon,46700
+1341,CMS Bhadradri Kothagudem,5100
+1341,CMS Mulugu,25550
+1341,CMS Narayanpet,7100
+1341,CMS Mancherial,4000
+1341,CMS Adilabad,705
+1341,CMS Medak (New),42600
+1341,CMS Jayashankar Bhupalpally,41100
+1341,CMS Ranga Reddy,59650
+1341,CMS Jagtial,2750
+1341,CMS Sangareddy (previously called CMS Medak),7300
+1341,CMS Khammam,3700
+1341,CMS Hyderabad,390830
+1341,CMS Nirmal,500
+1341,CMS Nagarkurnool,18600
+1341,CMS Mahabubnagar,14000
+1341,CMS Vikarabad,19900
+1341,CMS Suryapet,12850
+1341,CMS Nalgonda,500
+1341,CMS Yadadri Bhongir,14650
+1622,CMS Mahabubnagar,10100
+1622,CMS Jagtial,100
+1622,CMS Khammam,1300
+1622,CMS Bhadradri Kothagudem,8300
+1622,CMS Kamareddy,200
+1622,CMS Mancherial,1000
+1622,CMS Adilabad,700
+1622,CMS Sangareddy (previously called CMS Medak),62000
+1622,CMS SIDDIPET,162450
+1622,CMS Kumuram Bheem Asifabad,2500
+1622,CMS Nagarkurnool,350
+1622,CMS Mahabubabad,37005
+1622,CMS Nizamabad,113235
+1622,CMS Narayanpet,10050
+1622,CMS Jogulamba Gadwal,1000
+1622,CMS Warangal (New),274605
+1622,CMS Jangaon,17950
+1622,CMS Karimnagar,356
+1622,CMS Mulugu,4090
+1622,CMS Peddapalli,4000
+1622,CMS Hanumakonda (previously called CMS Warangal),15384
+1622,CMS Vikarabad,68500
+1622,CMS Nalgonda,888
+1622,CMS Suryapet,44000
+1622,CMS Jayashankar Bhupalpally,350
+1622,CMS Yadadri Bhongir,14500
+1622,CMS Hyderabad,242248
+1622,CMS Ranga Reddy,89574
+1622,CMS Rajanna Sircilla,20072
+1622,CMS Wanaparthy,4900
+1622,CMS Medak (New),13200
+1622,CMS Nirmal,15500
+1622,CMS Medchal Malkajgiri,850
+1621,CMS Narayanpet,119850
+1621,CMS Nizamabad,456140
+1621,CMS Jayashankar Bhupalpally,166500
+1621,CMS Suryapet,226038
+1621,CMS Bhadradri Kothagudem,64300
+1621,CMS Mancherial,128200
+1621,CMS Mahabubabad,191200
+1621,CMS Mahabubnagar,5250
+1621,CMS Hyderabad,78612
+1621,CMS Nirmal,204850
+1621,CMS Jagtial,308110
+1621,CMS Kumuram Bheem Asifabad,157500
+1621,CMS Yadadri Bhongir,378000
+1621,CMS Ranga Reddy,215
+1621,CMS Rajanna Sircilla,140850
+1621,CMS Sangareddy (previously called CMS Medak),23100
+1621,CMS Adilabad,165700
+1621,CMS Warangal (New),120850
+1621,CMS Wanaparthy,212500
+1621,CMS SIDDIPET,3342
+1621,CMS Khammam,2100
+1621,CMS Mulugu,270300
+1621,CMS Karimnagar,32200
+1621,CMS Peddapalli,181000
+1621,CMS Medak (New),152800
+1621,CMS Jogulamba Gadwal,239900
+1621,CMS Jangaon,120425
+1621,CMS Nagarkurnool,245850
+1621,CMS Kamareddy,133700
+1621,CMS Hanumakonda (previously called CMS Warangal),2065
+1621,CMS Vikarabad,102000
+1621,CMS Nalgonda,147750
+1621,CMS Medchal Malkajgiri,196450
+1355,CMS Peddapalli,42271
+1355,CMS Hyderabad,43729
+1355,CMS Nagarkurnool,53749
+1355,CMS Kumuram Bheem Asifabad,5772
+1355,CMS Khammam,10400
+1355,CMS Nirmal,40298
+1355,CMS Kamareddy,54138
+1355,CMS Nizamabad,38491
+1355,CMS Suryapet,81790
+1355,CMS Karimnagar,29168
+1355,CMS SIDDIPET,5868
+1355,CMS Jayashankar Bhupalpally,29911
+1355,CMS Jangaon,16811
+1355,CMS Vikarabad,31889
+1355,CMS Ranga Reddy,4277
+1355,CMS Yadadri Bhongir,27974
+1355,CMS Mulugu,9461
+1355,CMS Sangareddy (previously called CMS Medak),28102
+1355,CMS Adilabad,4590
+1355,CMS Jagtial,26982
+1355,CMS Mahabubabad,34701
+1355,CMS Medak (New),64009
+1355,CMS Rajanna Sircilla,70
+1355,CMS Mahabubnagar,10118
+1355,CMS Medchal Malkajgiri,25374
+1355,CMS Mancherial,50160
+1355,CMS Jogulamba Gadwal,62939
+1355,CMS Wanaparthy,97138
+1355,CMS Warangal (New),49705
+1355,CMS Hanumakonda (previously called CMS Warangal),5985
+1355,CMS Nalgonda,1817
+1355,CMS Bhadradri Kothagudem,33325
+1355,CMS Narayanpet,33374
+1360,CMS SIDDIPET,36048
+1360,CMS Jogulamba Gadwal,11411
+1360,CMS Yadadri Bhongir,16210
+1360,CMS Sangareddy (previously called CMS Medak),35916
+1360,CMS Mancherial,3867
+1360,CMS Nagarkurnool,2138
+1360,CMS Kumuram Bheem Asifabad,6318
+1360,CMS Suryapet,13413
+1360,CMS Jangaon,21504
+1360,CMS Vikarabad,9506
+1360,CMS Mahabubabad,25311
+1360,CMS Hyderabad,291464
+1360,CMS Karimnagar,28691
+1360,CMS Nizamabad,68191
+1360,CMS Jagtial,5
+1360,CMS Narayanpet,2636
+1360,CMS Nalgonda,5519
+1360,CMS Bhadradri Kothagudem,8200
+1360,CMS Nirmal,50
+1360,CMS Medak (New),22143
+1360,CMS Kamareddy,13850
+1360,CMS Rajanna Sircilla,3009
+1360,CMS Hanumakonda (previously called CMS Warangal),86136
+1360,CMS Adilabad,20383
+1360,CMS Mulugu,29654
+1360,CMS Khammam,68740
+1360,CMS Mahabubnagar,6025
+1360,CMS Medchal Malkajgiri,33440
+1360,CMS Ranga Reddy,62507
+1360,CMS Warangal (New),52999
+1360,CMS Wanaparthy,7500
+1360,CMS Jayashankar Bhupalpally,2070
+1360,CMS Peddapalli,10900
+94,CMS Khammam,173400
+94,CMS Jogulamba Gadwal,76250
+94,CMS Nalgonda,206300
+94,CMS Mulugu,125600
+94,CMS Jayashankar Bhupalpally,83400
+94,CMS Yadadri Bhongir,50200
+94,CMS Mancherial,33600
+94,CMS Vikarabad,136192
+94,CMS Wanaparthy,47800
+94,CMS Nirmal,5000
+94,CMS Sangareddy (previously called CMS Medak),513900
+94,CMS Nagarkurnool,50150
+94,CMS Mahabubnagar,110600
+94,CMS Medak (New),113600
+94,CMS Bhadradri Kothagudem,155300
+94,CMS Kumuram Bheem Asifabad,63000
+94,CMS Suryapet,137050
+94,CMS Jangaon,109900
+94,CMS Narayanpet,55300
+94,CMS Hanumakonda (previously called CMS Warangal),63336
+94,CMS Jagtial,80500
+94,CMS Warangal (New),283100
+94,CMS Karimnagar,191940
+94,CMS Medchal Malkajgiri,62900
+94,CMS Mahabubabad,145400
+94,CMS Rajanna Sircilla,51800
+94,CMS Peddapalli,53000
+94,CMS Adilabad,32300
+94,CMS Nizamabad,622954
+94,CMS Ranga Reddy,322728
+94,CMS SIDDIPET,395890
+94,CMS Hyderabad,1386483
+94,CMS Kamareddy,100000
+95,CMS Nirmal,20
+95,CMS Jagtial,2
+95,CMS Sangareddy (previously called CMS Medak),2055
+95,CMS Jayashankar Bhupalpally,30
+95,CMS Jangaon,3
+95,CMS Karimnagar,80
+95,CMS SIDDIPET,630
+95,CMS Nalgonda,15
+95,CMS Hanumakonda (previously called CMS Warangal),62
+95,CMS Narayanpet,616
+95,CMS Hyderabad,800
+95,CMS Warangal (New),10
+95,CMS Ranga Reddy,3000
+95,CMS Wanaparthy,2095
+95,CMS Yadadri Bhongir,1275
+95,CMS Bhadradri Kothagudem,800
+95,CMS Nagarkurnool,545
+95,CMS Suryapet,3130
+95,CMS Mancherial,50
+95,CMS Mulugu,180
+95,CMS Peddapalli,10
+95,CMS Jogulamba Gadwal,390
+95,CMS Medchal Malkajgiri,210
+95,CMS Kumuram Bheem Asifabad,200
+95,CMS Mahabubnagar,247
+95,CMS Khammam,30
+95,CMS Kamareddy,15
+95,CMS Rajanna Sircilla,20
+95,CMS Vikarabad,1400
+95,CMS Nizamabad,37
+95,CMS Medak (New),4365
+95,CMS Mahabubabad,10
+95,CMS Adilabad,310
+438.01,CMS Warangal (New),767700
+438.01,CMS Wanaparthy,60400
+438.01,CMS Mahabubabad,104000
+438.01,CMS Peddapalli,72000
+438.01,CMS Sangareddy (previously called CMS Medak),473000
+438.01,CMS Medchal Malkajgiri,242500
+438.01,CMS Adilabad,1700
+438.01,CMS Bhadradri Kothagudem,68000
+438.01,CMS Ranga Reddy,469518
+438.01,CMS Kumuram Bheem Asifabad,13400
+438.01,CMS Narayanpet,4400
+438.01,CMS Jayashankar Bhupalpally,2400
+438.01,CMS Mahabubnagar,20300
+438.01,CMS Jogulamba Gadwal,74400
+438.01,CMS Hyderabad,3674540
+438.01,CMS Nirmal,6000
+438.01,CMS Kamareddy,6000
+438.01,CMS Rajanna Sircilla,69600
+438.01,CMS Vikarabad,5800
+438.01,CMS Nizamabad,627811
+438.01,CMS Khammam,118350
+438.01,CMS Jagtial,71058
+438.01,CMS Hanumakonda (previously called CMS Warangal),115280
+438.01,CMS Nalgonda,229750
+438.01,CMS Jangaon,324200
+438.01,CMS Medak (New),11350
+438.01,CMS SIDDIPET,456161
+438.01,CMS Nagarkurnool,25684
+438.01,CMS Karimnagar,879600
+438.01,CMS Mulugu,120600
+438.01,CMS Suryapet,198000
+438.01,CMS Mancherial,
+438.01,CMS Yadadri Bhongir,36600
+482,CMS Medchal Malkajgiri,23489
+482,CMS Wanaparthy,19800
+482,CMS SIDDIPET,91822
+482,CMS Kumuram Bheem Asifabad,16200
+482,CMS Mahabubabad,94400
+482,CMS Peddapalli,1000
+482,CMS Vikarabad,36200
+482,CMS Khammam,85000
+482,CMS Jangaon,67000
+482,CMS Mulugu,71805
+482,CMS Narayanpet,27200
+482,CMS Hanumakonda (previously called CMS Warangal),20961
+482,CMS Jagtial,25857
+482,CMS Jayashankar Bhupalpally,5900
+482,CMS Ranga Reddy,69687
+482,CMS Sangareddy (previously called CMS Medak),104350
+482,CMS Nalgonda,86850
+482,CMS Warangal (New),126800
+482,CMS Yadadri Bhongir,23850
+482,CMS Bhadradri Kothagudem,52800
+482,CMS Mahabubnagar,40700
+482,CMS Adilabad,20800
+482,CMS Hyderabad,524113
+482,CMS Jogulamba Gadwal,36290
+482,CMS Nagarkurnool,32611
+482,CMS Medak (New),88000
+482,CMS Karimnagar,50558
+482,CMS Kamareddy,31800
+482,CMS Mancherial,5000
+482,CMS Nirmal,8500
+482,CMS Rajanna Sircilla,10843
+482,CMS Nizamabad,115700
+482,CMS Suryapet,37500
+1167,CMS Ranga Reddy,69494
+1167,CMS Jangaon,29305
+1167,CMS Karimnagar,61000
+1167,CMS Bhadradri Kothagudem,100
+1167,CMS Medak (New),11900
+1167,CMS Jayashankar Bhupalpally,9000
+1167,CMS Medchal Malkajgiri,23500
+1167,CMS SIDDIPET,83800
+1167,CMS Yadadri Bhongir,8400
+1167,CMS Mulugu,17300
+1167,CMS Suryapet,17300
+1167,CMS Peddapalli,1000
+1167,CMS Adilabad,72900
+1167,CMS Jagtial,9000
+1167,CMS Nirmal,800
+1167,CMS Mahabubabad,44510
+1167,CMS Jogulamba Gadwal,8055
+1167,CMS Khammam,29400
+1167,CMS Kumuram Bheem Asifabad,3800
+1167,CMS Rajanna Sircilla,8601
+1167,CMS Sangareddy (previously called CMS Medak),18950
+1167,CMS Kamareddy,200
+1167,CMS Mahabubnagar,200
+1167,CMS Mancherial,9800
+1167,CMS Nagarkurnool,1100
+1167,CMS Wanaparthy,10650
+1167,CMS Narayanpet,2900
+1167,CMS Warangal (New),70300
+1167,CMS Hyderabad,312321
+1167,CMS Hanumakonda (previously called CMS Warangal),84758
+1167,CMS Nalgonda,150
+1167,CMS Vikarabad,7300
+1167,CMS Nizamabad,11002
+632,CMS Yadadri Bhongir,27
+632,CMS Jangaon,1455
+632,CMS Wanaparthy,21
+632,CMS Nirmal,15
+632,CMS Nalgonda,3161
+632,CMS Kamareddy,61
+632,CMS Nagarkurnool,66
+632,CMS Narayanpet,265
+632,CMS Medchal Malkajgiri,515
+632,CMS Suryapet,20
+632,CMS Bhadradri Kothagudem,72
+632,CMS Mahabubnagar,31
+632,CMS Jogulamba Gadwal,315
+632,CMS Nizamabad,986
+632,CMS Ranga Reddy,1181
+632,CMS Mulugu,310
+632,CMS Vikarabad,30
+632,CMS Adilabad,1902
+632,CMS Hanumakonda (previously called CMS Warangal),971
+632,CMS Khammam,901
+632,CMS Medak (New),97
+632,CMS Peddapalli,121
+632,CMS Hyderabad,3801
+632,CMS Karimnagar,51
+632,CMS Jagtial,1
+632,CMS Kumuram Bheem Asifabad,100
+632,CMS Warangal (New),1
+632,CMS SIDDIPET,2
+632,CMS Mahabubabad,60
+632,CMS Mancherial,234
+632,CMS Rajanna Sircilla,453
+632,CMS Jayashankar Bhupalpally,340
+632,CMS Sangareddy (previously called CMS Medak),652
+1265,CMS Nirmal,4
+1265,CMS SIDDIPET,54
+1265,CMS Sangareddy (previously called CMS Medak),104
+1265,CMS Nizamabad,298
+1265,CMS Mahabubabad,24
+1265,CMS Jagtial,65
+1265,CMS Wanaparthy,2
+1265,CMS Karimnagar,36
+1265,CMS Nalgonda,74
+1265,CMS Vikarabad,174
+1265,CMS Adilabad,36
+1265,CMS Nagarkurnool,52
+1265,CMS Medak (New),116
+1265,CMS Jayashankar Bhupalpally,6
+1265,CMS Kamareddy,79
+1265,CMS Hyderabad,341
+1265,CMS Medchal Malkajgiri,38
+1265,CMS Khammam,307
+1265,CMS Narayanpet,96
+1265,CMS Bhadradri Kothagudem,25
+1265,CMS Jogulamba Gadwal,100
+1265,CMS Yadadri Bhongir,47
+1265,CMS Peddapalli,48
+1265,CMS Mahabubnagar,5
+1265,CMS Suryapet,7
+1265,CMS Kumuram Bheem Asifabad,6
+1265,CMS Rajanna Sircilla,4
+1265,CMS Mulugu,70
+1265,CMS Ranga Reddy,21
+1265,CMS Warangal (New),3
+1265,CMS Mancherial,55
+1265,CMS Jangaon,48
+1265,CMS Hanumakonda (previously called CMS Warangal),104
+2062,CMS Kamareddy,200
+2062,CMS Jangaon,310
+2062,CMS Mancherial,4000
+2062,CMS Narayanpet,2300
+2062,CMS Suryapet,300
+2062,CMS Peddapalli,5000
+2062,CMS Vikarabad,7856
+2062,CMS Bhadradri Kothagudem,100
+2062,CMS Mahabubabad,60
+2062,CMS Nalgonda,600
+2062,CMS Jogulamba Gadwal,1015
+2062,CMS Hanumakonda (previously called CMS Warangal),22009
+2062,CMS Jayashankar Bhupalpally,1650
+2062,CMS Kumuram Bheem Asifabad,4700
+2062,CMS Warangal (New),618
+2062,CMS Adilabad,44100
+2062,CMS SIDDIPET,280
+2062,CMS Hyderabad,572
+2062,CMS Rajanna Sircilla,218
+2062,CMS Jagtial,114
+2062,CMS Karimnagar,22643
+2062,CMS Yadadri Bhongir,4600
+2062,CMS Sangareddy (previously called CMS Medak),20000
+2062,CMS Khammam,1050
+2062,CMS Wanaparthy,250
+2062,CMS Nagarkurnool,930
+2062,CMS Medchal Malkajgiri,200
+2062,CMS Medak (New),17402
+2062,CMS Mulugu,3628
+2062,CMS Mahabubnagar,1305
+2062,CMS Nizamabad,34245
+2062,CMS Ranga Reddy,30858
+2062,CMS Nirmal,1150
+737,CMS Kamareddy,500
+737,CMS SIDDIPET,238
+737,CMS Mahabubabad,
+737,CMS Jogulamba Gadwal,21050
+737,CMS Kumuram Bheem Asifabad,
+737,CMS Adilabad,
+737,CMS Karimnagar,
+737,CMS Rajanna Sircilla,5000
+737,CMS Sangareddy (previously called CMS Medak),
+737,CMS Ranga Reddy,
+737,CMS Mahabubnagar,1000
+737,CMS Narayanpet,8500
+737,CMS Peddapalli,7200
+737,CMS Suryapet,4100
+737,CMS Mancherial,
+737,CMS Nizamabad,71566
+737,CMS Medak (New),
+737,CMS Medchal Malkajgiri,
+737,CMS Mulugu,500
+737,CMS Nagarkurnool,
+737,CMS Wanaparthy,9249
+737,CMS Yadadri Bhongir,17500
+737,CMS Hyderabad,
+737,CMS Warangal (New),
+737,CMS Jayashankar Bhupalpally,
+737,CMS Hanumakonda (previously called CMS Warangal),
+737,CMS Nalgonda,1908
+737,CMS Bhadradri Kothagudem,550
+737,CMS Vikarabad,
+737,CMS Jangaon,
+737,CMS Khammam,
+737,CMS Jagtial,
+737,CMS Nirmal,2500
+2065,CMS Vikarabad,32
+2065,CMS Wanaparthy,300
+2065,CMS Hanumakonda (previously called CMS Warangal),37729
+2065,CMS Bhadradri Kothagudem,100
+2065,CMS Nalgonda,175516
+2065,CMS Sangareddy (previously called CMS Medak),100
+2065,CMS Jogulamba Gadwal,44150
+2065,CMS Mahabubabad,131605
+2065,CMS Medchal Malkajgiri,80800
+2065,CMS Nagarkurnool,87730
+2065,CMS Rajanna Sircilla,8
+2065,CMS Khammam,502
+2065,CMS Mancherial,500
+2065,CMS Mahabubnagar,88071
+2065,CMS Peddapalli,500
+2065,CMS Nirmal,100
+2065,CMS Hyderabad,192
+2065,CMS Jagtial,40
+2065,CMS Adilabad,87550
+2065,CMS Yadadri Bhongir,600
+2065,CMS Nizamabad,130987
+2065,CMS Narayanpet,44600
+2065,CMS Suryapet,150
+2065,CMS Karimnagar,88239
+2065,CMS Ranga Reddy,161
+2065,CMS Kumuram Bheem Asifabad,800
+2065,CMS Warangal (New),140
+2065,CMS Jangaon,87752
+2065,CMS SIDDIPET,96
+2065,CMS Medak (New),200
+2065,CMS Jayashankar Bhupalpally,44100
+2065,CMS Kamareddy,131600
+2065,CMS Mulugu,87852
+1338,CMS Mancherial,4200
+1338,CMS Nirmal,1100
+1338,CMS Kumuram Bheem Asifabad,16900
+1338,CMS Wanaparthy,6800
+1338,CMS Vikarabad,21620
+1338,CMS Warangal (New),550
+1338,CMS Suryapet,3900
+1338,CMS Hanumakonda (previously called CMS Warangal),1013
+1338,CMS Peddapalli,500
+1338,CMS Hyderabad,30311
+1338,CMS Bhadradri Kothagudem,2200
+1338,CMS Nizamabad,1313
+1338,CMS Sangareddy (previously called CMS Medak),6300
+1338,CMS Nalgonda,313
+1338,CMS Karimnagar,2453
+1338,CMS Narayanpet,8450
+1338,CMS SIDDIPET,390
+1338,CMS Medak (New),6036
+1338,CMS Mahabubabad,20081
+1338,CMS Jangaon,22000
+1338,CMS Rajanna Sircilla,65
+1338,CMS Kamareddy,3500
+1338,CMS Yadadri Bhongir,8700
+1338,CMS Khammam,350
+1338,CMS Jagtial,1200
+1338,CMS Jogulamba Gadwal,18850
+1338,CMS Nagarkurnool,10600
+1338,CMS Mahabubnagar,450
+1338,CMS Jayashankar Bhupalpally,1720
+1338,CMS Ranga Reddy,53751
+1338,CMS Adilabad,50
+1338,CMS Mulugu,17240
+1338,CMS Medchal Malkajgiri,22525
+1964,CMS Mancherial,5000
+1964,CMS Ranga Reddy,1650
+1964,CMS Sangareddy (previously called CMS Medak),110000
+1964,CMS Wanaparthy,
+1964,CMS Rajanna Sircilla,
+1964,CMS Adilabad,84130
+1964,CMS Jayashankar Bhupalpally,104147
+1964,CMS Nagarkurnool,10000
+1964,CMS Hyderabad,71768
+1964,CMS Medak (New),2145
+1964,CMS Suryapet,1231
+1964,CMS Yadadri Bhongir,10000
+1964,CMS Medchal Malkajgiri,15743
+1964,CMS Warangal (New),253468
+1964,CMS Jangaon,42355
+1964,CMS Mahabubnagar,
+1964,CMS Jagtial,
+1964,CMS Hanumakonda (previously called CMS Warangal),327850
+1964,CMS Nalgonda,229
+1964,CMS Narayanpet,
+1964,CMS Mahabubabad,264428
+1964,CMS Mulugu,385500
+1964,CMS Nizamabad,324012
+1964,CMS Vikarabad,6500
+1964,CMS Nirmal,71516
+1964,CMS Bhadradri Kothagudem,39100
+1964,CMS Kumuram Bheem Asifabad,192550
+1964,CMS Karimnagar,1089
+1964,CMS SIDDIPET,3723
+1964,CMS Jogulamba Gadwal,
+1964,CMS Kamareddy,77138
+1964,CMS Khammam,8600
+1964,CMS Peddapalli,
+265,CMS Jogulamba Gadwal,12600
+265,CMS Mahabubnagar,17255
+265,CMS Warangal (New),644
+265,CMS Bhadradri Kothagudem,25300
+265,CMS Yadadri Bhongir,11950
+265,CMS Peddapalli,16200
+265,CMS Medak (New),14032
+265,CMS Medchal Malkajgiri,9432
+265,CMS Jangaon,13991
+265,CMS Karimnagar,46655

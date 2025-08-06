@@ -1,0 +1,524 @@
+Item Code,Item Name,EML/AML Type,Priority Item,Group Name,type_cons_dem
+409.01,"Lignocaine hydrochloride Injection 2% , 30ml [409.01][U]",AML,Yes,Anesthetic Agents,dem
+2119,Paracetamol Infusion 10mg/ml [2119][U],AML,Yes,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+197,Diclofenac 50mg Tablets [197][U],EML,Yes,Medicines Acting On The Respiratory Tract,cons
+198,Diclofenac Injection 25 mg/ml in 3 ml Amp [198][U],EML,Yes,"Analgesics, Antipyretics, Nsaids And Dmards",cons
+525,Paracetamol Tablets 500mg [525][U],EML,Yes,"Analgesics, Antipyretics, Nsaids And Dmards",cons
+1701,"PARACETAMOL PAEDIATRIC SYRUP IP 125MG/5ML, 60ML [1701][U]",EML,Yes,"Analgesics, Antipyretics, Nsaids And Dmards",cons
+1325,Serratiopeptidase Tab IP 10mg [1325][U],AML,Yes,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+1172,Trihexyphenidyl  Tablets 2mg [1172][S],EML,Yes,Antiparkinsonism Medicines,cons
+440,METRONIDAZOLE INJ IP 500 MG/100 ML [440][U],EML,Yes,Anti Infective Medicines,cons
+1642,Metronidazole Tablet 200 mg [1642][U],AML,Yes,Anti Infective Medicines,dem
+6,AMOXYCILLIN CAP IP 250 MG [6][U],EML,Yes,Anti Infective Medicines,cons
+7,Amoxicillin Capsules 500mg [7][U],EML,Yes,Anti Infective Medicines,cons
+1340,Amoxicillin (A)500mg + Clavulanic acid (B)125mg Tablets [1340][U],EML,Yes,Anti Infective Medicines,cons
+1341,Amoxycillin 250mg + Clavulanic Acid 125mg Tablets [1341][U],EML,Yes,Anti Infective Medicines,cons
+1622,CEFIXIME TAB IP 200 MG [1622][U],EML,Yes,Anti Infective Medicines,cons
+1621,CEFIXIME TAB IP DT 100 MG [1621][U],EML,Yes,Anti Infective Medicines,cons
+1355,Cefotaxime Injection 1gm [1355][U],AML,Yes,Anti Infective Medicines,dem
+1360,Ceftriaxone Injection 1gm [1360][U],EML,Yes,Anti Infective Medicines,cons
+94,Ciprofloxacin Tablets 500mg [94][U],EML,Yes,Anti Infective Medicines,cons
+95,Ciprofloxacin Injection  200mg [95][U],EML,Yes,Anti Infective Medicines,cons
+438.01,Metronidazole Tablets 400mg [438.01][U],EML,Yes,Anti Infective Medicines,cons
+482,Norfloxacin Tablets 400mg [482][U],EML,Yes,Anti Infective Medicines,cons
+1167,PHENYTOIN SODIUM TAB IP 100 [1167][U],EML,Yes,Anticonvulsants/ Antiepileptics,cons
+632,"Snake venom antiserum Lyophilized polyvalent powder for injection, with 10 ml WFI [632][U]",EML,Yes,Antidotes And Other Substances Used In Poisoning,cons
+1265,Pralidoxime Iodide Inj 25 mg/ml in 20ml Ampoule [1265][U],EML,Yes,Antidotes And Other Substances Used In Poisoning,cons
+2062,Acetyl Salicylic acid Tab 75mg [2062][U],EML,Yes,Cardiovascular Medicines,cons
+737,Amlodipine Tablets  IP 5mg [737][U],EML,Yes,Cardiovascular Medicines,cons
+2065,Atorvastatin tablet 10mg [2065][U],EML,Yes,Cardiovascular Medicines,cons
+1338,Clopidogrel Tablets 75mg [1338][U],EML,Yes,Cardiovascular Medicines,cons
+1964,Telmisartan Tablet IP 40 mg [1964][U],EML,Yes,Cardiovascular Medicines,cons
+265,Furosemide Tablets  40mg [265][U],EML,Yes,Diuretics,cons
+2107,Levetiracetam 500mg tablets [2107][U],EML,Yes,Anticonvulsants/ Antiepileptics,cons
+58,Bisacodyl Tablets  5mg [58][U],EML,Yes,Gastrointestinal Medicines,cons
+193,Dicyclomine Tablets 10mg [193][U],EML,Yes,Gastrointestinal Medicines,cons
+1137,Domperidone Tablets 10mg [1137][U],EML,Yes,Gastrointestinal Medicines,cons
+1162,Loperamide Tab 2mg [1162][U],EML,Yes,Gastrointestinal Medicines,cons
+1317,Ondansetron Tablets 4mg [1317][U],EML,Yes,Gastrointestinal Medicines,cons
+1649,Pantoprazole Injection 40mg [1649][U],EML,Yes,Gastrointestinal Medicines,cons
+1319,Pantoprazole Sodium Tab IP 40 MG [1319][U],EML,Yes,Gastrointestinal Medicines,cons
+2126,Pregabalin 75mg SR capsule IP [2126][U],EML,Yes,"Analgesics, Antipyretics, Nsaids And Dmards",cons
+2127,Pregabalin SR 75mg + Methylcobalamin 1500mcg tablets [2127][U],AML,Yes,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+1432,Glimepiride Tablet 1 mg [1432][U],EML,Yes,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+1688,Glimepiride 2mg tablets [1688][U],EML,Yes,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+1631,Premix Insulin 30:70 Injection (Regular:NPH) [1631][U],EML,Yes,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+1438,Levothyroxine Tablets 100 mcg [1438][U],EML,Yes,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+441,Metformin Tablets 500mg [441][U],EML,Yes,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+1511,Rabies Vaccine Human Use (Cell Culture) IP ID Route (inj ARV) [1511][U],EML,Yes,Immunologicals,cons
+1614,Ambroxal Syrup 60ml 30mg/5ml [1614][U],EML,Yes,Medicines Acting On The Respiratory Tract,cons
+211,Etophylline+Theophylline Tablets [211][U],EML,Yes,Medicines Acting On The Respiratory Tract,cons
+123,Ciprofloxacin 0.3% Eye Drops [123][U],EML,Yes,"Ear, Nose And Throat Medicines",cons
+40,Ascorbic acid (Vitamin C) Tab 500mg [40][U],EML,Yes,Vitamins And Minerals,cons
+1453,"Vitamin-B Complex Tab  (as per Schedule - V, Therapuetic) [1453][U]",EML,Yes,Vitamins And Minerals,cons
+2170,Calcium Carbonate with Vitamin D3 Tablets 500mg +250 IU [2170][U],EML,Yes,Vitamins And Minerals,cons
+279,Folic acid Tablet 5 mg [279][U],EML,Yes,Medicines Affecting Blood,cons
+1644,"Multivitamins Tablets (As per Schedule V ,Therapuetic) [1644][U]",EML,Yes,Vitamins And Minerals,cons
+711,Vitamin A and  D Capsules [711][U],EML,Yes,Vitamins And Minerals,cons
+162,Compound Sodium Lactate Injection IP IV 500ml (Ringer Lactate) [162][U],EML,Yes,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",cons
+229,Dextrose Injection IP 5%  (Glucose Injection 5 % ) [229][U],EML,Yes,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",cons
+224,Sodium Chloride and Dextrose Inj IP 500ml  (DNS) [224][U],EML,Yes,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",cons
+513.01,Oral Rehydration Salts(ORS) [513.01][U],EML,Yes,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",cons
+640,Sodium Chloride Injection 0.9% IV  ( NS 500 ml ) [640][U],EML,Yes,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",cons
+655,STERILE WATER FOR INJECTION IP 10 ML [655][U],EML,Yes,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",cons
+2209,"DICLOFENAC GEL IP 1 % W/W, 30 GM Tube [2209][U]",EML,Yes,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+1703,Ferrous salt (A) 45mg + Folic acid (B) 400mcg [1703][U],AML,Yes,Medicines Affecting Blood,dem
+278,Ferrous salt (A) + Folic acid (B) Tablet  [100 mg elemental iron (A) + 500 mcg (B)] [278][U],AML,Yes,Medicines Affecting Blood,dem
+2216,Levocetrizine Tablet 5mg [2216][U],AML,Yes,Antiallergics And Medicines Used In Anaphylaxis,dem
+2440,Riboflavin 5mg Tablet [2440][U],AML,Yes,Vitamins And Minerals,dem
+2193,Aceclofenac 100mg Tab [2193][U],AML,Yes,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+2353,ZINC 20MG TAB [2353][U],EML,Yes,Vitamins And Minerals,cons
+2489,Framycetin Skin Cream 1% 100gm [2489][U],EML,Yes,Dermatological Medicines,cons
+3235,Paracetamol Tablet 650 mg [3235][U],EML,Yes,"Analgesics, Antipyretics, Nsaids And Dmards",cons
+3237,Cetirizine Tab IP 10 MG [3237][U],EML,Yes,Antiallergics And Medicines Used In Anaphylaxis,cons
+3158,"Rabies Human Monoclonal antibody (rDNA) (100 IU/2.5ml, Each ml Contains: Rabies Human Monoclonal Antibody 40 IU) [3158][U]",EML,Yes,Immunologicals,cons
+3317,Clotrimozole Cream IP 2 % [3317][U],EML,Yes,Dermatological Medicines,cons
+3319,"Povidone Iodine Solution 5%  450 ml in 500 ml Bottle, 1 X 20 [3319][U]",EML,Yes,Disinfectants And Antiseptics,cons
+3241,Levocetirizine dihydrochloride 2.5 mg +Montelukast  5 mg dispersible table [3241][U],AML,Yes,Antiallergics And Medicines Used In Anaphylaxis,dem
+3195,Risperidone (Tablet 2 mg) [3195][S],EML,Yes,Psychotherapeutic Medicines,cons
+3366,SALBUTAMOL SULPHATE TAB IP 4 MG [3366][U],EML,Yes,Medicines Acting On The Respiratory Tract,cons
+3374,Calcium Carbonate Tablet 500mg [3374][U],AML,Yes,Vitamins And Minerals,dem
+1275.01,Tetanus toxoid Vaccine (Absorbed) Inj 0.5ml Amp [1275.01][U],EML,Yes,Immunologicals,cons
+1699.2,Azithromycin TAB IP - 500 MG [1699.2][U],EML,Yes,Anti Infective Medicines,cons
+4012.01,"Tab. Vitamin B Complex with Zinc (as per Schedule - V, Therapuetic) [4012.01][U]",AML,Yes,Vitamins And Minerals,dem
+4012,Vitamin-D 60000 Units Capsule [4012][U],EML,Yes,Vitamins And Minerals,cons
+739.01,BETAMETHASONE VALERATE OINTMENT IP [739.01][U],EML,Yes,Dermatological Medicines,cons
+4112,Cetirizine Syrup 30 ml [4112][U],EML,Yes,Antiallergics And Medicines Used In Anaphylaxis,cons
+4137,FAMOTIDINE 20 MG TAB [4137][U],EML,Yes,Gastrointestinal Medicines,cons
+2318.01,CALCIUM (ELEMENTAL) CAP 500 MG [2318.01][U],EML,Yes,Vitamins And Minerals,cons
+4318,Sodium Chloride IP Inj 0.9% W/ V 100ml FFS/BFS Bottle ( NS  100 ml) [4318][U],AML,Yes,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",dem
+4254,RABEPERAZOLE TAB IP 20 MG [4254][U],AML,Yes,Gastrointestinal Medicines,dem
+4285,METHYLCOBALAMINE TAB IP 500 MCG [4285][U],AML,Yes,Medicines Affecting Blood,dem
+4221,TELMISARTAN + HYDROCHLOROTHIAZIDE (40 MG + 12.5 MG) [4221][U],AML,Yes,Cardiovascular Medicines,dem
+4140,"PRE AND PROBIOTIC CAPS, DS [4140][U]",EML,Yes,Gastrointestinal Medicines,cons
+4162,DICLOFENAC SODIUM PROLONGED RELEASE / Sustained release TAB IP 100 MG [4162][U],AML,Yes,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+4175,Cefixime Tab IP 400mg [4175][U],AML,Yes,Anti Infective Medicines,dem
+4189,PIPERACILLIN AND TAZOBACTUM SODIUM INJ IP (2GM + 250 MG) [4189][S],AML,Yes,Anti Infective Medicines,dem
+4182,FURAZOLIDONE TAB 100 MG [4182][U],AML,Yes,Anti Infective Medicines,dem
+4211,"Acetyl Salicylic acid Tab, 150mg ,IP,10 X 10 Or 50 X 10 Blister With Aluminium Foil Pack [4211][U]",AML,Yes,Cardiovascular Medicines,dem
+4263,METFORMIN + GLIMIPIRIDE (500 MG + 1 MG) [4263][U],AML,Yes,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+4302,OLANZEPINE TAB 10 MG [4302][S],AML,Yes,Psychotherapeutic Medicines,dem
+3333.01,ALUMINIUM HYDROXIDE AND MAGNESIUM TRISILICATE TABLET [3333.01][U],EML,Yes,Gastrointestinal Medicines,cons
+1334,Atracurium Injection 25mg [1334][S],EML,No,Muscle Relaxants And Cholinesterase Inhibitors,cons
+53,BUPIVACAINE INJ IP ANHYDROUS BUPIVACAINE HCL 0.5% W/V [53][U],EML,No,Anesthetic Agents,cons
+1697,"Bupivacaine Hydrochloride injection, Heavy [1697][S]",EML,No,Anesthetic Agents,cons
+2078,Desflurane USP 240ml [2078][T],AML,No,Anesthetic Agents,dem
+666,Glycopyrrolate Injection 0.2mg/ml in 1ml amp [666][U],EML,No,Anesthetic Agents,cons
+315,Halothane 250ml [315][S],AML,No,Anesthetic Agents,dem
+355,Isoflurane 100ml [355][T],AML,No,Anesthetic Agents,dem
+404,Ketamine Injection 50mg / ml in 10-ml Vial [404][S],AML,No,Anesthetic Agents,dem
+1863,LIGNOCAINE TOPICAL 10% SPRAY [1863][U],AML,No,Anesthetic Agents,dem
+1829,Midazolam Inj 1mg/ml 10ml [1829][S],EML,No,Anesthetic Agents,cons
+1326,Sevoflurane 250ml [1326][T],EML,No,Anesthetic Agents,cons
+664,Thiopentone Sodium Injection 500 mg/Vial [664][S],EML,No,Anesthetic Agents,cons
+672,TIMOLOL MALEATE EYE DROPS IP 0.5% W/V [672][S],AML,No,Ophthalmological Medicines,dem
+582,Pentazocine lactate injection [582][S],AML,No,Medicines Acting On The Respiratory Tract,dem
+1329,Tramadol Injection [1329][S],EML,No,"Analgesics, Antipyretics, Nsaids And Dmards",cons
+2140,SODIUM VALPORATE TAB IP 500 MG [2140][U],EML,No,Psychotherapeutic Medicines,cons
+1832,Artesunate Powder for Injection 60 mg [1832][U],EML,No,Anti Infective Medicines,cons
+1625,Chloroquine Syrup 60 ml [1625][U],AML,No,Anti Infective Medicines,dem
+106,Chloroquine Phosphate Tablets 250mg [106][U],EML,No,Anti Infective Medicines,cons
+2097,Hydroxy Chloroquine Tab IP 200mg [2097][U],AML,No,Antineoplastic Immunosuppressives And Medicines Used In Palliative Care,dem
+1519,Primaquine 7.5mg Tablets [1519][U],AML,No,Anti Infective Medicines,dem
+1808,Flunarazine Tablets 5mg [1808][S],EML,No,Antimigraine Medicines,cons
+1740,Azathioprine Tablets  50 mg [1740][T],EML,No,Antineoplastic Immunosuppressives And Medicines Used In Palliative Care,cons
+741,Chlorpheniramine Tablet IP 4 mg [741][U],EML,No,Antiallergics And Medicines Used In Anaphylaxis,dem
+221.02,DEXAMETHASONE SODIUM PHOSPHATE INJ IP (IM/IV USE) [221.02][U],EML,No,Antiallergics And Medicines Used In Anaphylaxis,cons
+2079,Dexamethasone Intravitreal Implant 0.7mg (in solid polymer drug delivery system) [2079][T],AML,No,Ophthalmological Medicines,dem
+1300,Hydrocortisone Powder for Injection 100 mg [1300][U],EML,No,Antiallergics And Medicines Used In Anaphylaxis,cons
+579,PHENIRAMINE MALEATE INJ IP [579][U],EML,No,Antiallergics And Medicines Used In Anaphylaxis,cons
+576,Prednisolone Tablet 5 mg [576][U],EML,No,Antiallergics And Medicines Used In Anaphylaxis,cons
+566,Promethazine Hcl IP Injection [566][S],AML,No,Antiallergics And Medicines Used In Anaphylaxis,dem
+1479,Acyclovir Powder for Injection 250 mg [1479][U],AML,No,Anti Infective Medicines,dem
+1188,Amikacin Injection 100mg [1188][U],EML,No,Anti Infective Medicines,cons
+1189,"Amikacin Injection 500mg, 2ml vial [1189][U]",AML,No,Anti Infective Medicines,dem
+1719,Cefoperazone 1gm+ Sulbactum 0.5gm Injection [1719][S],AML,No,Anti Infective Medicines,dem
+1527,Cefotaxime Powder for Injection 250mg [1527][U],EML,No,Anti Infective Medicines,cons
+98,Co-trimoxazole Oral Suspension [98][U],EML,No,Anti Infective Medicines,cons
+294.01,Gentamicin Injection 40 mg/ml [294.01][U],EML,No,Anti Infective Medicines,cons
+308,Griseofulvin  Tablets  IP 125 mg [308][U],EML,No,Anti Infective Medicines,cons
+1724,Linezolid Tablet 600 mg [1724][S],AML,No,Anti Infective Medicines,dem
+1700,Meropenam Injection 1gm [1700][S],AML,No,"Hormones, Other Endocrine Drugs",dem
+1981,Moxifloxacin Tab. 400mg [1981][U],EML,No,"Hormones, Other Endocrine Drugs",dem
+1896,Nitrofurantoin Tablets   100 mg [1896][U],EML,No,Anti Infective Medicines,cons
+1528,Ofloxacin Tablets 200mg [1528][U],EML,No,"Hormones, Other Endocrine Drugs",dem
+1702,"Ofloxacin Suspension, 60 ml [1702][U]",AML,No,Anti Infective Medicines,dem
+1652,Piperacillin (A) 4 g + Tazobactam (B) 500 mg injection [1652][S],EML,No,Anti Infective Medicines,cons
+136,Carbamazepine Tablets 200mg [136][U],EML,No,Anticonvulsants/ Antiepileptics,cons
+1441,Magnesium sulphate Inj [1441][S],EML,No,Anticonvulsants/ Antiepileptics,cons
+2169,Snake venom antiserum Soluble/ liquid polyvalent [2169][U],EML,No,Antidotes And Other Substances Used In Poisoning,cons
+2066,Atropine  injection 0.6mg/ml amples [2066][U],EML,No,Antidotes And Other Substances Used In Poisoning,cons
+1889,N- Acetyl cystine Injection 200mg/ml in 5 ml [1889][S],AML,No,Antidotes And Other Substances Used In Poisoning,dem
+1890,Naloxone Injection 0.4 mg/ml [1890][T],AML,No,Antimigraine Medicines,dem
+1200,Albendazole Suspension [1200][U],EML,No,Anti Infective Medicines,cons
+736,Albendazole Tablets IP 400mg [736][U],EML,No,Anti Infective Medicines,cons
+201,Diethylcarbamazine Tablet 100 mg [201][U],EML,No,Anti Infective Medicines,cons
+1691,Acyclovir Tablets 400mg [1691][U],AML,No,Anti Infective Medicines,dem
+2118,Oseltamivir Capsule IP 75mg [2118][S],AML,No,Anti Infective Medicines,dem
+1733,"Adenosine Injection 3 mg/ml, 2ml Ampoule [1733][S]",AML,No,Cardiovascular Medicines,dem
+1736,"Amiodarone Injection50 mg/ml , 3 ml [1736][S]",AML,No,Cardiovascular Medicines,dem
+1695,Amiodarone Tablets 100mg [1695][S],AML,No,Cardiovascular Medicines,dem
+37,Atenolol Tablet IP 50 mg [37][U],EML,No,Cardiovascular Medicines,dem
+1145,Carbimazole Tab. 5mg [1145][U],EML,No,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+2071,Carvedilol  Tab 3.125mg [2071][U],EML,No,Cardiovascular Medicines,cons
+203,Digoxin Tablets 0.25 mg [203][S],EML,No,Cardiovascular Medicines,cons
+207,Diltiazem Tablets 30mg [207][U],EML,No,Cardiovascular Medicines,cons
+251,Enalapril Maleate Tablets 5mg [251][U],EML,No,Cardiovascular Medicines,cons
+1694,Labetalol Injection  5mg/ml in 20ml Ampoules [1694][U],EML,No,Cardiovascular Medicines,cons
+1442,Mephentramine Sulphate Injection   30 mg /ml in 10 ml vial [1442][S],AML,No,Cardiovascular Medicines,dem
+1877,Methyldopa Tablets IP 250 mg (Film Coated) [1877][S],AML,No,Dialysis Solutions,dem
+1897,Nitroglycerine (N.T.G.) Injection [1897][S],EML,No,Cardiovascular Medicines,cons
+1930,Ramipril Tablets  5mg [1930][U],EML,No,Dialysis Solutions,dem
+602.02,STREPTOKINASE INJ IP 15 LAKH UNITS 10ml Vial [602.02][S],AML,No,Cardiovascular Medicines,dem
+1966,Tissue Plasminogen Activator TPA 40mg [1966][S],AML,No,Medicines Affecting Blood,dem
+1668,Benzoic Acid + Salicylic Acid (Compound Benzoin Ointment) [1668][U],EML,No,Dermatological Medicines,cons
+73,"Benzyl Benzoate Application IP 25%W/V, [73][U]",AML,No,Dermatological Medicines,dem
+311,GAMMA BENZENE HEXACHLORIDE APPLICATION 1% W/V [311][U],EML,No,Dermatological Medicines,cons
+475,Miconazole Cream 2% 30gm tube [475][U],EML,No,Anti Infective Medicines,cons
+1892,Neomycin ointment 0.5% w/v 30gm [1892][U],AML,No,Anti Infective Medicines,dem
+1650,Permethrin Cream 5% [1650][U],AML,No,Dermatological Medicines,dem
+647,Silver Sulphadiazine Cream 1% [647][U],EML,No,Dermatological Medicines,cons
+1913,Povidone Iodine Ointment USP  30 gm tube [1913][U],EML,No,Disinfectants And Antiseptics,cons
+266,Furosemide Injection [266][U],EML,No,Diuretics,cons
+1639,Mannitol Injection 20% [1639][S],EML,No,Diuretics,cons
+1734,Allopurinol Tablets IP 100 mg [1734][S],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+2088,Febuxostat 40mg Tablet [2088][U],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+1623,"Chloramphenicol Ear drops IP,  5 ml [1623][U]",EML,No,"Ear, Nose And Throat Medicines",dem
+1754,"Chlorbutol  5% + Benzocaine 2.7% + Turpentine Oil  15% + Paradichloro Benzene 2%  Ear Drops, 5ml [1754][U]",AML,No,"Ear, Nose And Throat Medicines",dem
+1759,Cinnarizine Tablets IP 25mg [1759][U],EML,No,"Ear, Nose And Throat Medicines",cons
+1426,CLOTRIMAZOLE EAR DROPS - 1% W/V [1426][U],EML,No,"Ear, Nose And Throat Medicines",cons
+303,GENTAMICIN EYE DROPS IP 0.3% W/V [303][U],EML,No,Ophthalmological Medicines,cons
+1215,Dicyclomine Injection 10mg/ml [1215][U],AML,No,Gastrointestinal Medicines,dem
+1151,"Domperidone Oral liquid / oral suspension 1mg/ml,30 ml [1151][U]",AML,No,Gastrointestinal Medicines,dem
+2083,"Antacid Gel / Dried Aluminium Hydroxide Gel 600mg +Magnesium Hydroxide 300mg +Simethicone 25mg +Oxetacaine BP 10mg per 5ml syrup , 200ml [2083][U]",AML,No,"Ear, Nose And Throat Medicines",dem
+1791,Drotaverine Hydrochloride Injection 40mg [1791][S],EML,No,Gastrointestinal Medicines,cons
+743,"Furazolidone Oral Suspension, 60 ml [743][U]",AML,No,Anti Infective Medicines,dem
+1125,Hyoscine Butyl Bromide Injection 20 Mg / Ml [1125][U],EML,No,Gastrointestinal Medicines,cons
+1637,LACTULOSE SOLUTION USP 200 ML [1637][U],EML,No,"Ear, Nose And Throat Medicines",cons
+1318,Ondansetron Hydrochloride IP Injection 2Mg/Ml [1318][U],EML,No,Gastrointestinal Medicines,cons
+1647,Ondansetron Oral Liquid 2mg/5ml in 30 ml [1647][U],AML,No,Gastrointestinal Medicines,dem
+1696,Norethisterone Tablet IP 5 mg [1696][S],EML,No,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+299,Glibenclamide Tablets  IP 5mg [299][U],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+1634,Insulin (Soluble) injection [1634][U],EML,No,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+2138,Sitagliptin 50mg tablet [2138][U],EML,No,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+1230,Hydrochlorothiazide 25mg tablets [1230][U],EML,No,Diuretics,cons
+2163,Verapamil Tablet 40mg [2163][S],AML,No,New Eml Group,dem
+2111,Levothyroxine Tablet 25 mcg (Thyroxine Sodium Tablet 25 mcg) [2111][U],EML,No,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+1413,Recombinant Anti Rho D Immunoglobulin Injection 300 Mcg [1413][S],EML,No,Immunologicals,cons
+1616,Tetanus Immunoglobin (Human) IP 250 IU [1616][U],EML,No,Immunologicals,cons
+1820,Human Normal Immunoglobulin Injection IP 5gm/100ml [1820][S],EML,No,Immunologicals,dem
+1681,"Rabies Immunoglobulin , Equine Injection 300 IU [1681][U]",EML,No,Antidotes And Other Substances Used In Poisoning,cons
+1171,Etophylline+Theophylline Injection [1171][U],EML,No,Medicines Acting On The Respiratory Tract,cons
+2137,FORMOTEROL+BUDESONIDE 200MCG ROTACAPS [2137][U],AML,No,Medicines Acting On The Respiratory Tract,dem
+1656,SALBUTAMOL NEBULIZER SOLUTION BP 5 MG/ML [1656][U],EML,No,Medicines Acting On The Respiratory Tract,cons
+636,Salbutamol Sulphate Syrup IP [636][U],AML,No,Medicines Acting On The Respiratory Tract,dem
+1454,"Xylometazoline, Nasal drops 0.1 % [1454][U]",EML,No,"Ear, Nose And Throat Medicines",cons
+1516,Erythropoietin Injection IP 4000 IU [1516][S],EML,No,Medicines Affecting Blood,cons
+1462,Ethamsylate Injection 250mg [1462][S],AML,No,Medicines Affecting Blood,dem
+1675,Heparin  Injection 5000 IU / ml [1675][S],EML,No,Medicines Affecting Blood,cons
+1367,Human Albumin Solution I.P. 20% In100 ml Bottle [1367][S],EML,No,Blood Products And Plasma Substitutes,dem
+608,Iron sucrose Injection 20 mg/ml [608][U],EML,No,Medicines Affecting Blood,cons
+1659,Tranexamic Acid Injection [1659][U],EML,No,Medicines Affecting Blood,cons
+1750,Tranexamic Acid Tablets 500mg [1750][U],EML,No,Medicines Affecting Blood,cons
+1741,Baclofen Tablet 10mg [1741][S],AML,No,Muscle Relaxants And Cholinesterase Inhibitors,dem
+756,"Succinyl Choline Injection 50mg/ml,10Ml Vial [756][S]",AML,No,Swine Flu Vaccine,dem
+30,Acetazolamide Tablets 250mg [30][U],EML,No,Ophthalmological Medicines,cons
+1431,Gatifloxacin 0.3 w/v eye drops [1431][S],AML,No,Ophthalmological Medicines,dem
+1679,Hydroxypropyl  Propyl Methyl Cellulose Opthalmic Solution 2% Prefilled syringes [1679][S],AML,No,Ophthalmological Medicines,dem
+1905,Olopatadine eye drops 0.1% w/v [1905][S],AML,No,Ophthalmological Medicines,dem
+1447,"Phenylephrine Eye Drops 5%, 5ml [1447][S]",AML,No,Ophthalmological Medicines,dem
+1823,Sodium Chloride Eye drops 10% 5ml [1823][S],AML,No,Ophthalmological Medicines,dem
+1967,Tobramycin Ophthalmic Solution Usp - 0.3% W/V [1967][S],AML,No,Ophthalmological Medicines,dem
+1404,Carboprost Tromethamine Injection 250mcg [1404][S],AML,No,Oxytocics And Antioxytocics,dem
+1403,Dinoprostone gel 0.5mg [1403][S],AML,No,Oxytocics And Antioxytocics,dem
+463,Methyl Ergometrine Injection [463][U],EML,No,Oxytocics And Antioxytocics,cons
+1401,Misoprostol Tablet 200 mcg [1401][U],EML,No,Oxytocics And Antioxytocics,cons
+516.01,Oxytocin Injection 5 Iu / ml 1 ml Amp [516.01][U],EML,No,Oxytocics And Antioxytocics,cons
+6630,CAPD SOLUTION 1.5% IN 2 LTRS Bag [6630][S],EML,No,Dialysis Solutions,cons
+6631,CAPD SOLUTION 2.5%IN 2 LTRS Bag [6631][S],EML,No,Dialysis Solutions,cons
+586,Peritonial Dialysis Solution IP 1000ml Bottle [586][S],EML,No,Dialysis Solutions,cons
+1295,Chlorpromazine Hcl Tablets 100mg [1295][S],EML,No,Psychotherapeutic Medicines,cons
+1764,Clozapine Tablet 50 mg [1764][S],AML,No,Psychotherapeutic Medicines,dem
+1794,Escitalopram Tab 10mg [1794][S],EML,No,Psychotherapeutic Medicines,cons
+745,Haloperidol Injection 5 mg/ml [745][S],AML,No,Psychotherapeutic Medicines,dem
+746,Haloperidol Tablets 5mg [746][S],AML,No,Psychotherapeutic Medicines,dem
+1903,Olanzapine tablets 5mg [1903][S],EML,No,Psychotherapeutic Medicines,cons
+1705,Alprazolam Tablets IP 0.5 mg [1705][S],EML,No,Psychotherapeutic Medicines,cons
+1628,Diazepam Injection 5 mg/ml [1628][S],EML,No,Psychotropic Drugs,cons
+1953,Sodium valporate Tablets 200mg [1953][U],EML,No,Anticonvulsants/ Antiepileptics,cons
+2064,Amitriptyline Tab. 10mg [2064][S],AML,No,Psychotherapeutic Medicines,dem
+577,Prednisolone Tablet 10 mg [577][U],EML,No,Antineoplastic Immunosuppressives And Medicines Used In Palliative Care,cons
+2113,Montelukast 10mg tablet [2113][U],EML,No,Antiallergics And Medicines Used In Anaphylaxis,cons
+1144,Calcium gluconate Injection 100 mg/ml [1144][U],EML,No,Vitamins And Minerals,cons
+2131,RITUXIMAB INJ 500 MG [2131][T],AML,No,Antineoplastic Immunosuppressives And Medicines Used In Palliative Care,dem
+215,Diazepam Tablets 5mg [215][S],EML,No,Anticonvulsants/ Antiepileptics,cons
+1708,"Paracetamol drops 100mg /ml, 10 ml with Dropper [1708][U]",EML,No,"Analgesics, Antipyretics, Nsaids And Dmards",cons
+1370,Vitamin A Oral liquid 100000 IU/ml [1370][U],EML,No,Vitamins And Minerals,cons
+2171,Oseltamivir Oral Suspension IP [2171][S],AML,No,Anti Infective Medicines,dem
+2316,Budesonide Metered Dose Inhaler 100 mcg/dose [2316][U],AML,No,Medicines Acting On The Respiratory Tract,dem
+2214,"Calamine lotion , 60 ml [2214][U]",AML,No,Dermatological Medicines,dem
+2416,Cefadroxil 500mg Tablet [2416][U],EML,No,Anti Infective Medicines,cons
+2319,Cefpodoxime Proxitel 200mg tab. [2319][U],EML,No,Anti Infective Medicines,cons
+2357,Ceftazidime for Injection 250mg [2357][S],AML,No,Anti Infective Medicines,dem
+2238,Chlordiazepoxide IP 25mg Tablet [2238][S],EML,No,Gastrointestinal Medicines,cons
+2239,Cholecalciferol 60000 IU Sachets [2239][U],EML,No,Vitamins And Minerals,cons
+2322,Cloxacillin Injection 250mg [2322][U],AML,No,Anti Infective Medicines,dem
+2423,Diloxanide Furoate 500mg Tablet [2423][U],EML,No,Gastrointestinal Medicines,cons
+1788,"Diphtheria Antitoxin Injection IP 10,000 IU
+ [1788][S]",AML,No,New Eml Group,dem
+2198,Ethamsylate Tab. 250mg [2198][U],EML,No,New Eml Group,dem
+2366,Fluoxetine 20mg cap. [2366][S],EML,No,Psychotherapeutic Medicines,cons
+2255,HPMC 0.3%  in 10ml eye drops (Lubricating drops) [2255][U],AML,No,Ophthalmological Medicines,dem
+2257,"HUMAN INSULIN ANALOG ASPART INJ 100U/ML, 10ML [2257][S]",AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+2204,Ibuprofen Oral Liquid [2204][U],EML,No,"Analgesics, Antipyretics, Nsaids And Dmards",cons
+2370,IMIPRAMINE TAB IP 25 MG [2370][S],AML,No,New Eml Group,dem
+2371,INSULIN DEGLUDEG; MONOCOMPONENT; BIOSYNTHETIC INJ [2371][S],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+2331,LABETALOL HYDROCHLORIDE TAB IP 100 MG [2331][U],EML,No,Cardiovascular Medicines,cons
+2332,Leviteracetam Syrup [2332][S],AML,No,Anticonvulsants/ Antiepileptics,dem
+2335,Levothyroxine Tablet 50 mcg (Thyroxine Sodium Tablet 50 mcg) [2335][U],EML,No,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+2377,Liquid Paraffin 60 ML [2377][U],AML,No,Medicines For Neonatal Care,dem
+2265,Lithium carbonate 300mg [2265][S],EML,No,Psychotherapeutic Medicines,cons
+2268,Lorazepam Tablet IP 2mg [2268][U],EML,No,Anticonvulsants/ Antiepileptics,cons
+2338,Medroxyprogesterone acetate Tablet 10 mg [2338][S],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+2380,Metoprolol Injection [2380][S],EML,No,Cardiovascular Medicines,cons
+2205,"METRONIDAZOLE BENZOATE ORAL SUSPENSION IP 100 MG / 5 ML, 60 ML [2205][U]",EML,No,Anti Infective Medicines,cons
+2273,Morphine Injection 10 mg/ml [2273][T],AML,No,New Eml Group,dem
+2223,"Multivitamin drops (As Per Schedule V, Therapuetic) [2223][U]",EML,No,Vitamins And Minerals,cons
+2191,Phenobarbitone tablets 30mg [2191][U],AML,No,Anticonvulsants/ Antiepileptics,dem
+2290,"Potassium chloride  Oral liquid , 200 ml [2290][U]",EML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",cons
+2349,Proparacain Eye Drops 0.5%W/V [2349][S],AML,No,Ophthalmological Medicines,dem
+2218,SALBUTAMOL INHALATION IP 100 MCG [2218][S],AML,No,Medicines Acting On The Respiratory Tract,dem
+2226,Saline Nasal drops [2226][U],EML,No,"Ear, Nose And Throat Medicines",cons
+2391,"Sodium Valporate Oral liquid 200mg/5ml ,60 ml [2391][U]",AML,No,Anticonvulsants/ Antiepileptics,dem
+2304,Thiamine  100mg Injection [2304][U],EML,No,Vitamins And Minerals,cons
+2392,Ticagrelor 90mg Tablet [2392][U],EML,No,Cardiovascular Medicines,cons
+2228,Premixed Insulin Analouge 25% Insulin Lispro (1 Catridge of 3ml Each )  PEN [2228][S],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+2229,Adrenaline Injection 1 mg/ml [2229][U],EML,No,Antiallergics And Medicines Used In Anaphylaxis,cons
+2202,"Aminophylline Inj. 25mg/ml IP, 10ml vial [2202][U]",AML,No,Medicines Acting On The Respiratory Tract,dem
+2313,Atropine Sulphate eye ointment 1% w/v [2313][S],AML,No,New Eml Group,dem
+2256,Biphasic Insulin Aspart Analogue 100 IU / ml [2256][S],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+2396,Vasopressin 20units/ml IP Injection 10ml multi dose vial [2396][S],AML,No,Cardiovascular Medicines,dem
+2208,Vildagliptin Tablet 50mg [2208][U],EML,No,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+2498,Mometasone Furoate Ointment IP [2498][U],AML,No,Dermatological Medicines,dem
+1682.01,Salicylic acid Ointment 6% [1682.01][U],AML,No,Dermatological Medicines,dem
+2605,Moxifloxacin Eye Drops [2605][U],EML,No,Surgical And Consumables,dem
+1742.01,OPHTHALMIC BALANCE SALT - 500ML POUCH [1742.01][S],AML,No,Ophthalmological Medicines,dem
+8.1,Amoxicillin Oral Suspension 125mg/5ml in 30ml [8.1][U],EML,No,Anti Infective Medicines,cons
+3231,Paracetamol (Drops 125mg/ml) [3231][U],EML,No,"Analgesics, Antipyretics, Nsaids And Dmards",cons
+3221,Lignocaine (A) + Adrenaline (B) (Injection 1% (A) + 1:200000 (5 mcg/ml) (B) Injection 2% (A) + 1:200000 (5 mcg/ml) (B)) [3221][U],AML,No,Anesthetic Agents,dem
+3298,Ferrous salt (A) + Folic acid (B) (Oral liqiud 20 mg elemental iron (A) + 100 mcg (B)/ml) [3298][U],EML,No,Medicines Affecting Blood,cons
+3301,PHYTOMENADIONE INJECTION IP (VITAMIN K1 INJ) [3301][U],AML,No,Medicines Affecting Blood,dem
+3022,Clobazam Tablet 10 mg [3022][S],EML,No,Anticonvulsants/ Antiepileptics,cons
+3001,"Propofol (1%) IP 10 MG/ML, 20 ML Vial [3001][S]",EML,No,Anesthetic Agents,cons
+3043,"Vancomycin Intravenous infusion 500 mg ,10 ml Vial [3043][S]",AML,No,Anti Infective Medicines,dem
+3015,Leflunomide (Tablet 20 mg Film Coated) [3015][S],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+3339,DEXTROSE INJ IP 25% (Glucose Injection 25 % ) [3339][U],EML,No,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+3294,Fluconazole (Tablet 150 mg) [3294][U],EML,No,Anti Infective Medicines,cons
+3343,Ciprofloxacin (Ointment 0.3%) [3343][S],AML,No,Ophthalmological Medicines,dem
+3345,Natamycin Eye Drops  2% [3345][S],AML,No,Ophthalmological Medicines,dem
+3352,Atropine Sulphate Eye Drops 1% [3352][S],AML,No,Ophthalmological Medicines,dem
+3034,Ceftriaxone (Powder for Injection 250 mg) [3034][U],AML,No,Anti Infective Medicines,dem
+3073,Hydroxyurea (Capsule 500 mg) [3073][S],AML,No,Medicines Affecting Blood,dem
+3074,Enoxaparin (Injection 60 mg/0.6 ml) [3074][S],EML,No,Medicines Affecting Blood,cons
+3226,Ibuprofen (Tablet 200 mg) [3226][U],EML,No,"Analgesics, Antipyretics, Nsaids And Dmards",cons
+3227,Mefenamic acid (Capsule 250 mg) [3227][U],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+3229,Mefenamic acid (Oral liquid 100 mg/5 ml) [3229][U],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+3230,Paracetamol Solution (250mg/5ml) [3230][U],EML,No,"Analgesics, Antipyretics, Nsaids And Dmards",cons
+3232,PARACETAMOL INJ 150 MG / ML [3232][U],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+3050,Clindamycin Capsule 300 mg [3050][S],AML,No,Anti Infective Medicines,dem
+3238,Dexamethasone Tablet 0.5 mg [3238][U],EML,No,Antiallergics And Medicines Used In Anaphylaxis,cons
+3263,"Cefadroxil (Oral liquid 125 mg/5 ml) , 30ml [3263][U]",AML,No,Anti Infective Medicines,dem
+3233,Paracetamol (Suppository 170 mg) [3233][U],EML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+3220,"LIGNOCAINE HCL GEL 2% IP, 30 Gms tube [3220][U]",EML,No,Anesthetic Agents,dem
+3265,Cefixime Oral Suspension IP (Oral liquid 50 mg/5 ml) [3265][U],EML,No,Anti Infective Medicines,cons
+3266,Cloxacillin (Capsule 250 mg) [3266][U],EML,No,Anti Infective Medicines,cons
+3269,"Azithromycin Liquid/Suspension 200mg/5ml , 30 ml [3269][U]",AML,No,Anti Infective Medicines,dem
+3271,Ciprofloxacin Oral liquid 250 mg/5ml [3271][U],AML,No,Anti Infective Medicines,dem
+3273,Co-trimoxazole (Sulphamethoxazol e (A) + Trimethoprim (B)) (Tablet 400 mg (A) + 80 mg (B)) [3273][U],EML,No,Anti Infective Medicines,cons
+3276,Levofloxacin (Tablet 250 mg) [3276][U],EML,No,Anti Infective Medicines,cons
+3279,"Acyclovir (Oral liquid 400 mg/5 ml),60ml [3279][U]",AML,No,Anti Infective Medicines,dem
+3295,METOCLOPRAMIDE INJ IP [3295][U],EML,No,Gastrointestinal Medicines,cons
+3140,Human chorionic gonadotropin (Injection 5000 IU) [3140][S],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+3141,Hydrocortisone (Tablet 10 mg) [3141][S],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+3145,Methylprednisolone IP (Tablet 8 mg) [3145][U],AML,No,Antineoplastic Immunosuppressives And Medicines Used In Palliative Care,dem
+3149,Ethinylestradiol Tablet  IP  0.01 mg [3149][U],EML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+3170,Tropicamide Drops 1% W/V [3170][S],AML,No,Ophthalmological Medicines,dem
+3297,Metoclopramide (Tablet 10 mg) [3297][U],EML,No,Antineoplastic Immunosuppressives And Medicines Used In Palliative Care,dem
+3303,Glyceryl trinitrate (Sublingual tablet 0.5 mg) [3303][U],EML,No,Cardiovascular Medicines,dem
+3304,Isosorbide dinitrate Tablet 5 mg [3304][U],EML,No,Cardiovascular Medicines,cons
+3307,Metoprolol (CR Tablet 50 mg) [3307][U],AML,No,Cardiovascular Medicines,dem
+3309,Hydrochlorothiazide (Tablet 12.5 mg) [3309][U],EML,No,Cardiovascular Medicines,dem
+3311,Telmisartan Tablet IP - 20MG [3311][U],EML,No,Cardiovascular Medicines,cons
+3315,Rosuvastatin Tablet 10 mg [3315][U],EML,No,Cardiovascular Medicines,cons
+3322,Coal tar (Solution 5%) [3322][U],EML,No,Dermatological Medicines,dem
+3190,Fluphenazine (Depot Injection 25 mg/ml) [3190][S],AML,No,Psychotherapeutic Medicines,dem
+3032,Cefazolin Inj  IP 1gm [3032][S],AML,No,Anti Infective Medicines,dem
+3087,Verapamil (Injection 2.5 mg/ml) [3087][S],AML,No,Cardiovascular Medicines,dem
+3097,STERILE DOPAMINE CONCENTRATE IP 40 MG/ML [3097][S],EML,No,Cardiovascular Medicines,cons
+3201,Clonazepam (Tablet 0.5 mg) [3201][S],EML,No,Psychotherapeutic Medicines,cons
+3203,Zolpidem (Tablet 10 mg) [3203][S],AML,No,Psychotherapeutic Medicines,dem
+3205,Clomipramine (Tablet 25 mg) [3205][T],EML,No,Psychotherapeutic Medicines,cons
+4199.01,"PHENOBARBITONE SYRUP - 20MG/5ML,100ml [4199.01][U]",AML,No,Anticonvulsants/ Antiepileptics,dem
+3249,Phenytoin (Syrup 125 mg/5 ml) [3249][U],EML,No,Anticonvulsants/ Antiepileptics,cons
+3255,Diethylcarbamazine (Oral liquid 120 mg/5 ml) [3255][U],EML,No,Anti Infective Medicines,cons
+3257,"Amoxicillin Oral Liquid  250 mg/5 ml , 60ml [3257][U]",AML,No,Anti Infective Medicines,dem
+3258,AMOXYCILLIN AND POTASSIUM CLAVULANATE INJ POWDER FOR INJECTION 500 MG + 100 MG [3258][U],EML,No,Anti Infective Medicines,cons
+3260,Amoxicillin (A) + Clavulanic acid (B) (5 ml Dry Syrup 125 mg (A) + 31.25 (b)/5 ml) [3260][U],EML,No,Anti Infective Medicines,cons
+3114,Papain + Urea Ointment (Urea 100 mgPapain 521700 Units) [3114][S],AML,No,Disinfectants And Antiseptics,dem
+3331,XYLOMETAZOLINE HYDROCHLORIDE NASAL DROPS IP 0.05% [3331][U],AML,No,"Ear, Nose And Throat Medicines",dem
+3327,Ethyl alcohol (Denatured) (Solution 70%) [3327][U],EML,No,Disinfectants And Antiseptics,dem
+3336,Hyoscine butylbromide (Tablet 10 mg) [3336][U],EML,No,Gastrointestinal Medicines,cons
+3368,DEXTROSE INJ IP 10%(Glucose Injection 10%) [3368][S],EML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",cons
+3369,Sodium bicarbonate(as per IP) 7.5% w/v [3369][U],EML,No,Cardiovascular Medicines,cons
+3358,Budesonide Respules 0.50 mg /2ml [3358][U],AML,No,Medicines Acting On The Respiratory Tract,dem
+3354,CARBOXY METHYL CELLULOSE EYE DROPS - 1% W/V [3354][U],EML,No,Ophthalmological Medicines,cons
+3361,Budesonide (A) 200 mcg  + Formoterol (B) 6 mcg  (Inhaler) [3361][U],AML,No,Medicines Acting On The Respiratory Tract,dem
+3362,FORMOTEROL+ BUDESONIDE 400MCG INHALER [3362][U],AML,No,Medicines Acting On The Respiratory Tract,dem
+1700.01,Meropenam 500 mg Injection [1700.01][S],EML,No,Anti Infective Medicines,dem
+3143.01,METHYL PREDNISOLONE SODIUM SUCCINATE FOR INJECTION USP 500 MG [3143.01][S],AML,No,Antineoplastic Immunosuppressives And Medicines Used In Palliative Care,dem
+3214.01,Fexofenadine Tablets 120mg [3214.01][U],AML,No,Antiallergics And Medicines Used In Anaphylaxis,dem
+2217.02,Alcohol based Hand sanitizer (WHO Formula) 500 ML Bottle [2217.02][U],EML,No,Disinfectants And Antiseptics,dem
+3270.01,Azithromycin Tab IP 250 mg [3270.01][U],EML,No,Anti Infective Medicines,cons
+4006,Dexamethasone 4 Mg Tablet [4006][U],AML,No,Antineoplastic Immunosuppressives And Medicines Used In Palliative Care,dem
+1202.02,Amphotericin B Lipid Emulsion  IP 50mg Inj [1202.02][S],AML,No,Anti Infective Medicines,dem
+4006.6,"Cefpodoxime Proxetil Syrup 50mg/5 ml,30 ml Bottle [4006.6][U]",EML,No,Anti Infective Medicines,cons
+4144,PROGESTERONE SOFT GELATIN CAPS - 200MG [4144][U],EML,No,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+4100,ZINC SYRUP 20 MG/5ML [4100][U],EML,No,Vitamins And Minerals,cons
+4106,"CEPHALEXIN SYRUP, 125MG/5ml, 60ML Bottle [4106][U]",EML,No,Anti Infective Medicines,cons
+4120,PLASMA EXPANDER INFUSION 500 ML [4120][S],EML,No,Blood Products And Plasma Substitutes,cons
+4159,DAPAGLIFLOZIN 10MG TABLET [4159][S],EML,No,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+4133,BETAHISTIDINE TAB IP 8 MG [4133][U],EML,No,"Ear, Nose And Throat Medicines",cons
+4115,"Pheniramine Maleate Syrup 3 mg /1ml,60 ml [4115][U]",EML,No,New Eml Group,cons
+4103,ARTESUNATE TAB 50 MG [4103][U],EML,No,Anti Infective Medicines,cons
+4319,SODIUM CHLORIDE NASAL DROPS [4319][U],AML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",dem
+4222,TENECTEPLASE INJ 30 MG/VIAL [4222][S],AML,No,Cardiovascular Medicines,dem
+4253,OCTREOTIDE INJ 100 MCG/ML [4253][T],AML,No,Gastrointestinal Medicines,dem
+4259,GLARGINE INJ 100 IU / ML [4259][T],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+4282,Ferric carboxymaltose inj. 500mg / 10ml Vial [4282][U],AML,No,Medicines Affecting Blood,dem
+4284,"MENADIONE SODIUM BISULPHITE INJ IP  (VITAMIN-K3 INJECTION,1 Mg/ML) [4284][U]",AML,No,Medicines Affecting Blood,dem
+4313,POTASSIUM CHLORIDE INJ. IP 15% W / V [4313][S],AML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",dem
+4317,SODIUM CHLORIDE INJ IP 1000 ML [4317][S],AML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",dem
+4252,LIDOCAINE + BECLOMETHOSONE + PHENYLEPHRINE OINT [4252][S],AML,No,Gastrointestinal Medicines,dem
+4250,Bisacodyl Suppository [4250][S],AML,No,Gastrointestinal Medicines,dem
+4256,URSODEOXYCHOLIC ACID TAB IP 150 MG [4256][U],AML,No,Gastrointestinal Medicines,dem
+4320,SODIUM CITRATE AND CITRIC ACID MONOHYDRATE [4320][S],AML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",dem
+4257,FENOFIBRATE TABLET 145 MG [4257][S],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+4258,Finasteride Tab IP 5mg [4258][S],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+4281,Apixaban Tab 2.5mg [4281][S],AML,No,Medicines Affecting Blood,dem
+4325,PYRIDOXINE TAB 40 MG [4325][U],AML,No,Vitamins And Minerals,dem
+4304,RISPERIDONE TAB 4 MG [4304][S],AML,No,Psychotherapeutic Medicines,dem
+4305,Sertraline Tab IP 50mg [4305][S],AML,No,Psychotherapeutic Medicines,dem
+4306,TRIFLUOPERAZINE TAB IP 5 MG [4306][S],AML,No,Psychotherapeutic Medicines,dem
+4117,GABAPENTIN CAPS IP - 100MG [4117][U],EML,No,Anticonvulsants/ Antiepileptics,cons
+4107,CLOTRIMAZOLE DUSTING POWDER - 1% W/W [4107][U],EML,No,Anti Infective Medicines,cons
+4111,"Neomycin Powder (5 mg) Bacitracin (250 IU) with Sulphacetamide (60mg) ,10 gm [4111][U]",EML,No,Anti Infective Medicines,cons
+4108,Clotrimazole Mouth Paint - 1% W/V   15ml bottle [4108][U],EML,No,Anti Infective Medicines,cons
+4113,"DIPHENHYDRAMINE ORAL SOLUTION BP 12.5mg, 100ml bottle [4113][U]",EML,No,Antiallergics And Medicines Used In Anaphylaxis,cons
+4114,FEXOFENADINE SYRUP 30MG /5ML [4114][U],EML,No,Antiallergics And Medicines Used In Anaphylaxis,cons
+4116,DIVALPROATE SODIUM SR TAB 500 MG [4116][S],EML,No,Anticonvulsants/ Antiepileptics,cons
+752.01,PHENYTOIN SODIUM INJ USP [752.01][U],EML,No,Anticonvulsants/ Antiepileptics,cons
+4125,NORADRENALINE INJ IP 1 MG/ML [4125][U],EML,No,Cardiovascular Medicines,cons
+4119,NAPROXEN SODIUM 500MG [4119][U],EML,No,Antimigraine Medicines,cons
+4124,NIFEDIPINE SUSTAINED RELEASE TAB IP 10 MG [4124][U],EML,No,Cardiovascular Medicines,cons
+4157,PRAZOSIN HYDROCHLORIDE  TAB IP 5 MG [4157][S],EML,No,Cardiovascular Medicines,cons
+4134,CARBAMIDE PEROXIDE (DEWAX) DROPS [4134][U],EML,No,"Ear, Nose And Throat Medicines",cons
+4127,STERILE DOBUTAMINE CONCENTRATED IP FOR INFUSION 250 MG [4127][S],EML,No,Cardiovascular Medicines,cons
+4139,"Liquid Paraffin + Milk of Magnesia + Sodium Picosulphate  Suspension ,100 ml bottle [4139][U]",EML,No,Gastrointestinal Medicines,cons
+4128,ZINC CREAM IP [4128][U],EML,No,Dermatological Medicines,cons
+4129,POVIDONE IODINE SOLUTION 10% W/V(Paint) [4129][U],EML,No,Disinfectants And Antiseptics,cons
+4135,"POVIDONE IODINE GARGLE, 2% W/V [4135][U]",EML,No,"Ear, Nose And Throat Medicines",cons
+4130,CHLORTHALIDONE TAB BP - 12.5MG [4130][U],EML,No,Diuretics,dem
+4160,SPIRANOLACTONE TAB IP 25 MG [4160][U],EML,No,Diuretics,cons
+4132,"TORSEMIDE TABLET , 10MG [4132][S]",EML,No,Diuretics,cons
+4136,DROTAVERINE TAB 40 MG [4136][S],EML,No,Gastrointestinal Medicines,cons
+4147,Dextromethorphan Syrup 60 ml [4147][U],EML,No,Medicines Acting On The Respiratory Tract,cons
+4148,"Levosalbutamol Syrup , 100 ml [4148][U]",EML,No,Medicines Acting On The Respiratory Tract,cons
+4141,RACECADOTRIL 100 MG TAB [4141][S],EML,No,Gastrointestinal Medicines,cons
+3155.01,METFORMIN SR TABLET 1000 mg [3155.01][U],EML,No,"Hormones, Other Endocrine Medicines And Contraceptives",cons
+4146,ACETYLCYSTEINE TAB BP - 600MG [4146][S],EML,No,Medicines Acting On The Respiratory Tract,cons
+4153,TROPICAMIDE AND PHENYL EPHRINE EYE DROPS [4153][S],EML,No,Ophthalmological Medicines,cons
+4154,CYANOCOBALAMINE INJ IP 1000 mcg/ml [4154][U],EML,No,Vitamins And Minerals,cons
+4152,OFLOXACIN OPHTHALMIC SOLUTION IP 0.3% W/W [4152][U],EML,No,Ophthalmological Medicines,cons
+4167,PIROXICAM CAPS IP 20 MG [4167][S],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+4169,Thiocolchicoside Capsule IP 4 MG [4169][U],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+4174,Ampicillin Cap IP 250mg [4174][U],AML,No,Anti Infective Medicines,dem
+4155,VITAMIN D3 DROPS - 400 IU/0.5ML OR 1ML [4155][U],EML,No,Vitamins And Minerals,cons
+4156,"Vitamin-B Complex Inj  (as per Schedule - V, Therapuetic) [4156][U]",EML,No,Vitamins And Minerals,cons
+4163,Fentanyl Citrate Inj IP 100mcg / 2ml Amp [4163][S],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+4161,Colchicine 0.5mg Tablet [4161][S],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+4164,GABAPENTIN TAB 300MG [4164][U],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+4166,METHOTREXATE TABLET 5 MG [4166][S],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+4168,SULFASALAZINE TABLET 500 MG [4168][S],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+4170,TRAMADOL TAB 50MG [4170][S],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+4171,Acyclovir Dispersible Tab IP 200mg [4171][U],AML,No,Anti Infective Medicines,dem
+4185,ITRACANAZOLE CAP - 100MG [4185][T],AML,No,Anti Infective Medicines,dem
+4181,Fluconazole Inj IP 2mg /ml 100ml [4181][S],AML,No,Anti Infective Medicines,dem
+4184,Tigecycline 50mg Inj [4184][T],AML,No,Anti Infective Medicines,dem
+4187,LINEZOLIDE INJ 200 MG IN 100 ML [4187][S],AML,No,Anti Infective Medicines,dem
+4196,FOSPHENYTOIN SODIUM INJ USP 75 MG / ML [4196][S],AML,No,Anticonvulsants/ Antiepileptics,dem
+4178,Clotrimazole Topical Lotion - 1% W/V 30 ml [4178][U],AML,No,Anti Infective Medicines,dem
+4006.5,Cefpodoxime Proxetil Syrup 100 MG  /5ML [4006.5][U],AML,No,Anti Infective Medicines,dem
+4195,"Levocetrizine Syrup ,30 ml [4195][U]",AML,No,Antiallergics And Medicines Used In Anaphylaxis,dem
+4177,Cefuroxime Tab - 500mg [4177][S],AML,No,Anti Infective Medicines,dem
+4179,Clotrimazole Vaginal Tab IP 500mg [4179][U],AML,No,Anti Infective Medicines,dem
+4180,Doxycycline Tab 100mg DT [4180][U],AML,No,Anti Infective Medicines,dem
+4188,NORFLOXACIN DISPERSIBLE TABLETS-100MG [4188][U],AML,No,Anti Infective Medicines,dem
+4190,TINIDAZOLE TAB IP - 500MG [4190][U],AML,No,Anti Infective Medicines,dem
+4194,Hydroxyzine Tab 10mg [4194][S],AML,No,Antiallergics And Medicines Used In Anaphylaxis,dem
+4206,"Human Albumin Inj IP 5%  , 100 ml Bottle [4206][S]",AML,No,Blood Products And Plasma Substitutes,dem
+4207,HYDROXY ETHYL STARCH SOLUTION [4207][U],AML,No,Blood Products And Plasma Substitutes,dem
+4198,OXCARBAZEPINE300MG DT TABLET [4198][S],AML,No,Anticonvulsants/ Antiepileptics,dem
+4210,AMLODIPINE + TELMISATRAN (5 MG + 40 MG) [4210][U],AML,No,Cardiovascular Medicines,dem
+4248,Bacillus Clausii Spores [4248][U],AML,No,Gastrointestinal Medicines,dem
+4243,"Para dichlorobenzene 2% , Benzocaine 2.7% , Chlorbutol 5%,  and Turpentine oil 15%   Ear Drop 10ml [4243][U]",AML,No,"Ear, Nose And Throat Medicines",dem
+4227,KETOCONAZOLE - TOPICAL / LOTION 2% [4227][U],AML,No,Dermatological Medicines,dem
+4229,Sodium Fusidate Cream 2%  10 gm [4229][U],AML,No,Dermatological Medicines,dem
+4230,TRIAMCINOLONE ACETONIDE OINTMENT - 0.1% [4230][U],AML,No,Dermatological Medicines,dem
+4239,Mupirocin Ointment / Cream   2%  5 gms tube [4239][U],AML,No,Disinfectants And Antiseptics,dem
+4240,SILVER SULFADIAZINE +CHLORHEXIDINE OINTMENT [4240][U],AML,No,Disinfectants And Antiseptics,dem
+4238,MAGNESIUM SULPHATE CRYSTAL [4238][S],AML,No,Disinfectants And Antiseptics,dem
+4231,Bicarb Solution BP for Haemodialysis 20 Ltrs can [4231][S],AML,No,Dialysis Solutions,dem
+4274,FORMOTEROL+BUDESONIDE 400MCG ROTACAPS [4274][U],AML,No,Medicines Acting On The Respiratory Tract,dem
+4271,Fluticasone 125 mcg Combined With Formoterol  6 mcg  (Inhaler) [4271][S],AML,No,Medicines Acting On The Respiratory Tract,dem
+4276,LEVO SALBUTAMOL AND IPRATROPIUM BROMIDE RESPIRATOR [4276][U],AML,No,Medicines Acting On The Respiratory Tract,dem
+4278,Levosalbutamol Inhaler 50mcg [4278][S],AML,No,Medicines Acting On The Respiratory Tract,dem
+4279,LEVOSALBUTAMOL RESPULES 0.63mg [4279][U],AML,No,Medicines Acting On The Respiratory Tract,dem
+4261,HUMAN INSULIN DETEMIR INJ.100 IU / ML [4261][S],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+4262,INSULIN LISPRO INJ IP 300 UNITS IN EACH PEN / 100 IU / ML [4262][S],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+4265,Premixed Insulin Analogue Aspart+ Protaminated Aspart Inj. IP (Pen) [4265][S],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+4269,Bromhexine Elixir [4269][U],AML,No,Medicines Acting On The Respiratory Tract,dem
+4264,NORGESTREL WITH ETHINYLESTRADIOL TAB IP [4264][U],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+4267,VOGLIBOSE TABLET 0.3 MG TABLET [4267][S],AML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+4270,Bromhexine Tab IP 8mg [4270][S],AML,No,Medicines Acting On The Respiratory Tract,dem
+4311,Half Normal Saline 0.45%  w/v [4311][S],AML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",dem
+4288,SURFACTANT BOVINE (INTRA TRACHEAL) NATURAL INJ 5 ML [4288][S],AML,No,Medicines For Neonatal Care,dem
+4291,NEOSTIGMINE METHYL SULPHATE INJ IP 0.5MG/ML 1ML AMP [4291][U],AML,No,Muscle Relaxants And Cholinesterase Inhibitors,dem
+4293,VECURONIUM BROMIDE INJ IP 2 ML/ML [4293][S],AML,No,Muscle Relaxants And Cholinesterase Inhibitors,dem
+4287,Glycerol 98% w/v 500ml [4287][U],AML,No,Medicines For Neonatal Care,dem
+4297,"Prednisolone Acetate Ophthalmic Suspension 0.1%  w/v , 5ml  [4297][S]",AML,No,Ophthalmological Medicines,dem
+4308,AMINOACID INFUSION 100 ML BOTTLE 10% [4308][S],AML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",dem
+4310,Calcium and Phosporus Syrup 60ml bottle [4310][U],AML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",dem
+4292,PYRIDOSTIGMINE TAB IP 60 MG [4292][S],AML,No,Muscle Relaxants And Cholinesterase Inhibitors,dem
+4298,AMISULPRIDE TAB 100 MG [4298][S],AML,No,Psychotherapeutic Medicines,dem
+4299,Aripiprazole Tab 10mg [4299][S],AML,No,Psychotherapeutic Medicines,dem
+4300,Duloxetine 20mg Tablets [4300][S],AML,No,Psychotherapeutic Medicines,dem
+4315,RESOMOL POWDER( ORS ) [4315][U],AML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",dem
+4314,POTASSIUM CITRATE AND MAGNESIUM CITRATE SYRUP [4314][S],AML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",dem
+4316,SODIUM BICARBONATE TAB 500MG [4316][S],AML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",dem
+2211.01,"IRON DROPS 25mg /ml, 10ml bottle [2211.01][U]",EML,No,Medicines Affecting Blood,cons
+4326,Boro-Spirit Ear Drop [4326][U],EML,No,"Ear, Nose And Throat Medicines",cons
+4332,Cis Atracurium 10Mg/5Ml Vial [4332][S],AML,No,Muscle Relaxants And Cholinesterase Inhibitors,dem
+4333,Clonazepam 0.25mg Tablet [4333][S],AML,No,Anticonvulsants/ Antiepileptics,dem
+4334,Ketorolac Tromethamine Tab IP 10mg [4334][S],AML,No,"Analgesics, Antipyretics, Nsaids And Dmards",dem
+4335,"Disodium Hydrogen Citrate  Syrup, 100 ml [4335][U]",EML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",dem
+4336,Inj Ringer Lactate (Glass Bottle) [4336][S],AML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",dem
+4337,Multiple Electrolytes wit Dextrose injection Type I (IP) -- Isolyte - P [4337][S],AML,No,"Solutions Correcting Water, Electrolyte Disturbances And Acid-Base Disturbances",dem
+4338,Vildagliptin 50mg and Metformin Hydrochloride 500mg Tablet [4338][U],EML,No,"Hormones, Other Endocrine Medicines And Contraceptives",dem
+4339,Benzoyl Peroxide Gel IP 5% [4339][U],EML,No,Disinfectants And Antiseptics,dem
+4340,Buprenorphine Tablet  IP (sub-lingual) 0.4 mg [4340][S],AML,No,Antimigraine Medicines,dem
+4341,Gum Paint (Tannic Acid) [4341][U],EML,No,New Eml Group,dem
+4342,Isosorbide dinitrate Tablet IP  5 mg (Sublingual) [4342][U],EML,No,Cardiovascular Medicines,dem
+4343,Levonorgestrel Tablet 1.5 mg [4343][U],EML,No,New Eml Group,dem
+4344,Medroxyprogesterone acetate Injection 150 mg [4344][S],AML,No,New Eml Group,dem
+4345,N Acetyl Cystine Tablet 600 mg/Dispersible [4345][U],EML,No,Antidotes And Other Substances Used In Poisoning,dem
+4346,Petroleum Jelly 100% [4346][U],EML,No,Dermatological Medicines,dem

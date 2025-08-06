@@ -1,0 +1,73 @@
+import streamlit as st
+import plotly.graph_objects as go
+import pandas as pd
+import plotly.express as px
+
+# Establishing database connection
+from db_connection import fetch_one
+from db_connection import run_query
+
+with st.sidebar:
+    st.title("Custom Options")
+    
+    selected_cons_ref = st.selectbox("Select Reference Quantity", ["Consumption/Demand", "Only Consumption"])
+    selected_category = st.selectbox("Select Drugs", ["All Drugs", "Priority Drugs"])
+
+# Sample Data
+data = {
+    'Item': ['CMS Adilabad','CMS Khammam','CMS Sangareddy','CMS Hanumakonda','CMS Karimnagar','CMS Hyderabad','CMS Nizamabad','CMS Ranga Reddy','CMS Siddipet','CMS Nalgonda','CMS Mahabubnagar','CMS Asifabad','CMS Mancherial','CMS Nirmal','CMS Kamareddy','CMS Jagtial','CMS Peddapalli','CMS Rajanna Sircilla','CMS Medak','CMS Bhupalpally','CMS Jangaon','CMS Mahabubabad','CMS Mulugu','CMS Warangal','CMS Bhadradri Kothagudem','CMS Medchal','CMS Vikarabad','CMS Suryapet','CMS Yadadri Bhuvanagiri','CMS Narayanpet','CMS Wanaparthy','CMS Nagarkurnool','CMS Jogulamba Gadwal'],
+    '>3 months': [203,149,58,246,214,336,218,228,65,188,165,247,149,261,116,174,131,131,141,75,124,124,52,113,87,63,99,40,209,214,95,35,44],
+    '1-3 months': [29,186,261,154,214,37,174,131,98,188,192,55,112,58,58,116,131,235,141,149,50,124,261,136,174,146,25,80,26,71,190,104,87],
+    '<1 month': [261,149,145,61,24,75,44,65,261,42,55,110,149,87,232,116,131,26,100,149,199,124,52,113,87,125,199,201,78,24,24,104,87],
+    'No Stock': [29,38,58,61,70,74,86,98,98,104,110,110,112,116,116,116,129,130,140,149,149,150,157,160,174,188,199,201,209,213,213,279,304]
+}
+df = pd.DataFrame(data)
+
+# Create Plotly Figure
+fig = go.Figure()
+
+fig.add_trace(go.Bar(
+    y=df['Item'],
+    x=df['>3 months'],
+    name='>3 months',
+    orientation='h',
+    marker=dict(color='skyblue')
+))
+
+fig.add_trace(go.Bar(
+    y=df['Item'],
+    x=df['1-3 months'],
+    name='1-3 months',
+    orientation='h',
+    marker=dict(color='lightgreen')
+))
+
+fig.add_trace(go.Bar(
+    y=df['Item'],
+    x=df['<1 month'],
+    name='<1 month',
+    orientation='h',
+    marker=dict(color='orange')
+))
+
+fig.add_trace(go.Bar(
+    y=df['Item'],
+    x=df['No Stock'],
+    name='No Stock',
+    orientation='h',
+    marker=dict(color='red')
+))
+
+st.markdown('### Stock Position across all CMSs') 
+
+# Update layout
+fig.update_layout(
+    barmode='stack',
+    title='',
+    xaxis_title='Quantity',
+    yaxis_title='Item',
+    height=1600
+)
+
+# Display in Streamlit
+st.plotly_chart(fig, use_container_width=True)
