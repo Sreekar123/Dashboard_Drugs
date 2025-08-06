@@ -43,6 +43,7 @@ PyRect==0.2.0
 PyScreeze==1.0.1
 PySocks==1.7.1
 python-dateutil==2.9.0.post0
+python-decouple==3.8
 python-dotenv==1.1.0
 pytweening==1.2.0
 pytz==2025.2
@@ -58,6 +59,7 @@ sortedcontainers==2.4.0
 soupsieve==2.6
 SQLAlchemy==2.0.41
 streamlit==1.47.0
+streamlit-aggrid==1.1.7
 tenacity==9.1.2
 toml==0.10.2
 tornado==6.5.1
