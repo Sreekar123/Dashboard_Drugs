@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import io
 import psycopg2
-from db_connection import get_connection  # Use your existing connection function
+from db_connection_updated import get_connection  # Use your existing connection function
 from datetime import datetime
 
 st.title("Upload Page")
@@ -132,6 +132,83 @@ if po_file:
     except Exception as e:
         st.error(f"Error: {e}")
 
+
+st.header("Recalculate Stock Positions")
+
+if st.button("🔄 Recalculate Stock Positions"):
+    try:
+        conn = get_connection()
+        cur = conn.cursor()
+
+        update_query = """
+        UPDATE stock_data sd
+        SET 
+            stock_pos_cons = subq.stock_pos_cons,
+            stock_pos_con_dem = subq.stock_pos_con_dem
+        FROM (
+            SELECT 
+                sd.item_code,
+                sd.warehouse_name,
+                sd.stock_quantity,
+                im.type_cons_dem,
+                cr.cons_qty_ref,
+                dr.dem_qty_ref,
+
+                -- Calculate stock_pos_cons
+                CASE 
+                    WHEN cr.cons_qty_ref > 0 THEN ROUND((sd.stock_quantity::numeric / cr.cons_qty_ref) * 12, 2)
+                    WHEN cr.cons_qty_ref IS NULL OR cr.cons_qty_ref = 0 THEN 
+                        CASE 
+                            WHEN sd.stock_quantity > 0 THEN 3.00
+                            ELSE 0.00
+                        END
+                END AS stock_pos_cons,
+
+                -- Calculate stock_pos_con_dem
+                CASE 
+                    WHEN im.type_cons_dem = 'cons' THEN 
+                        CASE 
+                            WHEN cr.cons_qty_ref > 0 THEN ROUND((sd.stock_quantity::numeric / cr.cons_qty_ref) * 12, 2)
+                            WHEN cr.cons_qty_ref IS NULL OR cr.cons_qty_ref = 0 THEN 
+                                CASE 
+                                    WHEN sd.stock_quantity > 0 THEN 3.00
+                                    ELSE 0.00
+                                END
+                        END
+                    WHEN im.type_cons_dem = 'dem' THEN 
+                        CASE 
+                            WHEN dr.dem_qty_ref > 0 THEN ROUND((sd.stock_quantity::numeric / dr.dem_qty_ref) * 12, 2)
+                            WHEN dr.dem_qty_ref IS NULL OR dr.dem_qty_ref = 0 THEN 
+                                CASE 
+                                    WHEN sd.stock_quantity > 0 THEN 3.00
+                                    ELSE 0.00
+                                END
+                        END
+                    ELSE NULL
+                END AS stock_pos_con_dem
+
+            FROM stock_data sd
+            LEFT JOIN item_master im ON im.item_code = sd.item_code
+            LEFT JOIN consumption_reference cr ON cr.item_code = sd.item_code AND cr.warehouse_name = sd.warehouse_name
+            LEFT JOIN demand_reference dr ON dr.item_code = sd.item_code AND dr.warehouse_name = sd.warehouse_name
+        ) AS subq
+        WHERE sd.item_code = subq.item_code AND sd.warehouse_name = subq.warehouse_name;
+        """
+
+        cur.execute(update_query)
+        conn.commit()
+        st.success("✅ Stock positions updated successfully!")
+
+    except Exception as e:
+        st.error(f"❌ Error while updating stock positions: {e}")
+        conn.rollback()
+
+    finally:
+        cur.close()
+        conn.close()
+
+st.markdown("<br><br><br>", unsafe_allow_html=True)
+
 st.header("Upload Consumption Reference Data")
 cons_file = st.file_uploader("Upload Consumption CSV or Excel", type=["csv", "xlsx"], key="consumption")
 
@@ -231,78 +308,6 @@ if dem_file:
         st.error(f"File error: {e}")
 
 st.markdown("<br>", unsafe_allow_html=True)
-
-if st.button("🔄 Recalculate Stock Positions"):
-    try:
-        conn = get_connection()
-        cur = conn.cursor()
-
-        update_query = """
-        UPDATE stock_data sd
-        SET 
-            stock_pos_cons = subq.stock_pos_cons,
-            stock_pos_con_dem = subq.stock_pos_con_dem
-        FROM (
-            SELECT 
-                sd.item_code,
-                sd.warehouse_name,
-                sd.stock_quantity,
-                im.type_cons_dem,
-                cr.cons_qty_ref,
-                dr.dem_qty_ref,
-
-                -- Calculate stock_pos_cons
-                CASE 
-                    WHEN cr.cons_qty_ref > 0 THEN ROUND((sd.stock_quantity::numeric / cr.cons_qty_ref) * 12, 2)
-                    WHEN cr.cons_qty_ref IS NULL OR cr.cons_qty_ref = 0 THEN 
-                        CASE 
-                            WHEN sd.stock_quantity > 0 THEN 3.00
-                            ELSE 0.00
-                        END
-                END AS stock_pos_cons,
-
-                -- Calculate stock_pos_con_dem
-                CASE 
-                    WHEN im.type_cons_dem = 'cons' THEN 
-                        CASE 
-                            WHEN cr.cons_qty_ref > 0 THEN ROUND((sd.stock_quantity::numeric / cr.cons_qty_ref) * 12, 2)
-                            WHEN cr.cons_qty_ref IS NULL OR cr.cons_qty_ref = 0 THEN 
-                                CASE 
-                                    WHEN sd.stock_quantity > 0 THEN 3.00
-                                    ELSE 0.00
-                                END
-                        END
-                    WHEN im.type_cons_dem = 'dem' THEN 
-                        CASE 
-                            WHEN dr.dem_qty_ref > 0 THEN ROUND((sd.stock_quantity::numeric / dr.dem_qty_ref) * 12, 2)
-                            WHEN dr.dem_qty_ref IS NULL OR dr.dem_qty_ref = 0 THEN 
-                                CASE 
-                                    WHEN sd.stock_quantity > 0 THEN 3.00
-                                    ELSE 0.00
-                                END
-                        END
-                    ELSE NULL
-                END AS stock_pos_con_dem
-
-            FROM stock_data sd
-            LEFT JOIN item_master im ON im.item_code = sd.item_code
-            LEFT JOIN consumption_reference cr ON cr.item_code = sd.item_code AND cr.warehouse_name = sd.warehouse_name
-            LEFT JOIN demand_reference dr ON dr.item_code = sd.item_code AND dr.warehouse_name = sd.warehouse_name
-        ) AS subq
-        WHERE sd.item_code = subq.item_code AND sd.warehouse_name = subq.warehouse_name;
-        """
-
-        cur.execute(update_query)
-        conn.commit()
-        st.success("✅ Stock positions updated successfully!")
-
-    except Exception as e:
-        st.error(f"❌ Error while updating stock positions: {e}")
-        conn.rollback()
-
-    finally:
-        cur.close()
-        conn.close()
 
 
 

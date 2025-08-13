@@ -10,8 +10,8 @@ import io
 from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
 
 # Establishing database connection
-from db_connection import fetch_one
-from db_connection import run_query
+from db_connection_updated import fetch_one
+from db_connection_updated import run_query
 
 
 #######################
@@ -469,9 +469,9 @@ st.markdown('### Insights')
 
 # Your insight content as a list
 st.markdown('''
-- **Drugs with low stock and RC available (POs to be issued):** 55  
+- **Rate Contracts Expired / Expiring in 3 months:** 55  
 
-- **Gains/Losses:** States with high inbound/outbound migration for selected year  
+- **Drugs with low stock and RC available (POs to be issued):** 55  
 
 - **States Migration:** % of states with annual inbound/outbound migration > 50,000  
 ''')
