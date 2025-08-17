@@ -372,12 +372,13 @@ if st.session_state.selected_metric != "None":
 
         # Build AgGrid config
         gb = GridOptionsBuilder.from_dataframe(df)
-        gb.configure_default_column(sortable=True, resizable=True, filter=False)
+        gb.configure_default_column(sortable=True, resizable=True, filter=False, wrapHeaderText=True, autoHeaderHeight=True)
         gb.configure_column("Item Code", filter=True)
-        gb.configure_column("Item Name", filter=True)
-        gb.configure_column("Stock Qty", type=["numericColumn", "numberColumnFilter", "customNumericFormat"], precision=0)
-        gb.configure_column("Pending Supply", type=["numericColumn", "numberColumnFilter", "customNumericFormat"], precision=0)
-        gb.configure_column("Stock Position", type=["numericColumn", "numberColumnFilter", "customNumericFormat"], precision=2)
+        gb.configure_column("S No.", width = 50)
+        gb.configure_column("Item Name", filter=True, width = 500)
+        gb.configure_column("Stock Qty", type=["numericColumn", "customNumericFormat"], precision=0)
+        gb.configure_column("Pending Supply", type=["numericColumn", "customNumericFormat"], precision=0)
+        gb.configure_column("Stock Position", type=["numericColumn", "customNumericFormat"], precision=2)
         gb.configure_selection(selection_mode="single", use_checkbox=False)
         gb.configure_grid_options(floatingFilter=False)
         grid_options = gb.build()
@@ -465,24 +466,5 @@ if st.session_state.selected_metric != "None":
 
 st.markdown("<br>", unsafe_allow_html=True)
 
-st.markdown('### Insights')
-
-# Your insight content as a list
-st.markdown('''
-- **Rate Contracts Expired / Expiring in 3 months:** 55  
-
-- **Drugs with low stock and RC available (POs to be issued):** 55  
-
-- **States Migration:** % of states with annual inbound/outbound migration > 50,000  
-''')
-
-st.markdown("""
-<nav style='display: flex; gap: 30px; font-size: 16px;'>
-  <a href='/?page=Dashboard' target='_self'>🏠 Dashboard</a>
-  <a href='/?page=Upload%20Data' target='_self'>📤 Upload Data</a>
-  <a href='/?page=Purchase%20Orders' target='_self'>📦 Purchase Orders</a>
-  <a href='/?page=Insights' target='_self'>📊 Insights</a>
-</nav>
-""", unsafe_allow_html=True)
 
 

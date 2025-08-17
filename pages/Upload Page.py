@@ -132,6 +132,60 @@ if po_file:
     except Exception as e:
         st.error(f"Error: {e}")
 
+# Upload file for Purchase Order Data
+st.header("Upload Rate Contract Data")
+rc_file = st.file_uploader("Upload RC CSV or Excel", type=["csv", "xlsx"], key="rc")
+
+if rc_file:
+    try:
+        # Read the uploaded file
+        if rc_file.name.endswith('.csv'):
+            rc_df = pd.read_csv(rc_file)
+        else:
+            rc_df = pd.read_excel(rc_file)
+
+        st.success("File uploaded successfully!")
+        st.dataframe(rc_df.head())
+
+        if st.button("Insert RC Data into Database"):
+            conn = get_connection()
+            cur = conn.cursor()
+
+            entry_date = datetime.today().date()
+
+            # Prepare records list
+            records = []
+            for _, row in rc_df.iterrows():
+                records.append((
+                    row['Item Code'],
+                    row['Supplier'],
+                    float(row['Rate']) if pd.notnull(row['Rate']) else 0,
+                    row['RATE UNIT'],
+                    pd.to_datetime(row['Tender Date']).date() if pd.notnull(row['Tender Date']) else None,
+                    pd.to_datetime(row['Contract From Date']).date() if pd.notnull(row['Contract From Date']) else None,
+                    pd.to_datetime(row['Contract To Date']).date() if pd.notnull(row['Contract To Date']) else None,
+                    row['Rate Contract Level']
+                ))
+
+            # Delete existing data (optional: comment this if not needed)
+            cur.execute("DELETE FROM rate_contract_data")
+
+            # Insert all at once
+            cur.executemany("""
+                INSERT INTO rate_contract_data (
+                    item_code, supplier, rate, rate_unit, tender_date, 
+                    contract_from_date, contract_to_date, rate_contract_level
+                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+            """, records)
+
+            conn.commit()
+            cur.close()
+            conn.close()
+            st.success("RC data inserted successfully using batch upload!")
+
+    except Exception as e:
+        st.error(f"Error: {e}")
+
 
 st.header("Recalculate Stock Positions")
 

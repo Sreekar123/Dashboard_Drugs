@@ -4,8 +4,8 @@ import pandas as pd
 import plotly.express as px
 
 # Establishing database connection
-from db_connection import fetch_one
-from db_connection import run_query
+from db_connection_updated import fetch_one
+from db_connection_updated import run_query
 
 with st.sidebar:
     st.title("Custom Options")
