@@ -1,0 +1,12 @@
+name: Keep Streamlit Awake
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'    # Runs every 2 hours
+
+jobs:
+  ping-app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl Streamlit App
+        run: curl -s https://dashlytics.streamlit.app
