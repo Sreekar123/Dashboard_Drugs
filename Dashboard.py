@@ -334,16 +334,16 @@ if st.session_state.selected_metric != "None":
         st.write("**Showing drugs with stock > 3 months**")
         filters.append(f"COALESCE({stock_pos_col}, 0) > 3")
     elif st.session_state.selected_metric == "t_mid_1_3":
-        st.write("Showing drugs with stock between 1 and 3 months")
+        st.write("**Showing drugs with stock between 1 and 3 months**")
         filters.append(f"COALESCE({stock_pos_col}, 0) > 1 AND COALESCE({stock_pos_col}, 0) <= 3")
     elif st.session_state.selected_metric == "t_below_1":
-        st.write("Showing drugs with stock < 1 month")
+        st.write("**Showing drugs with stock < 1 month**")
         filters.append(f"(({stock_pos_col} > 0 AND {stock_pos_col} <= 1) OR ((COALESCE(stock_quantity, 0)) > 0 AND COALESCE({stock_pos_col}, 0) = 0))")
     elif st.session_state.selected_metric == "t_zero":
-        st.write("Showing drugs with zero stock position")
+        st.write("**Showing drugs with zero stock position**")
         filters.append("(COALESCE(stock_quantity, 0)) = 0")
     else:
-        st.write("Showing all drugs")
+        st.write("**Showing all drugs**")
 
     # Combine the filters
     if filters:
@@ -374,7 +374,7 @@ if st.session_state.selected_metric != "None":
         gb = GridOptionsBuilder.from_dataframe(df)
         gb.configure_default_column(sortable=True, resizable=True, filter=False, wrapHeaderText=True, autoHeaderHeight=True)
         gb.configure_column("Item Code", filter=True)
-        gb.configure_column("S No.", width = 50)
+        gb.configure_column("S No.", width = 100, filter=False)
         gb.configure_column("Item Name", filter=True, width = 500)
         gb.configure_column("Stock Qty", type=["numericColumn", "customNumericFormat"], precision=0)
         gb.configure_column("Pending Supply", type=["numericColumn", "customNumericFormat"], precision=0)

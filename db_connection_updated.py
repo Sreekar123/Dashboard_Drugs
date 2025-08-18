@@ -1,14 +1,16 @@
 import psycopg2
 import pandas as pd
+import streamlit as st
+
 
 # Establishing database connection
 def get_connection():
     return psycopg2.connect(
-        host="183.82.59.13",
-        database="dashboard_data",
-        user="postgres",
-        password="Tgmsidc@123",
-        port="5432"  # default for Postgres
+        host=st.secrets["postgres"]["host"],
+        database=st.secrets["postgres"]["database"],
+        user=st.secrets["postgres"]["user"],
+        password=st.secrets["postgres"]["password"],
+        port=st.secrets["postgres"]["port"]  # default for Postgres
     )
 
 def run_query(query):
