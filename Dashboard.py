@@ -3,8 +3,6 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-import plotly.express as px
-import plotly.graph_objects as go
 import io
 
 from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
@@ -44,6 +42,19 @@ def format_indian_number(number):
 
     return formatted
 
+def highlight_low_supply(row):
+    try:
+        supply_pct = float(str(row["Supply %"]).replace("%", "").strip())
+        if supply_pct < 90:
+            color = 'background-color: white; color: red; font-weight: bold;'
+            return [
+                color if col in ["Pending Qty", "Supply %"] else ''
+                for col in row.index
+            ]
+    except:
+        pass
+    return ['' for _ in row]
+
 
 def format_date_dd_mmm_yyyy(date_value):
     """Format a datetime object or string to 'dd-MMM-yyyy' format."""
@@ -52,26 +63,6 @@ def format_date_dd_mmm_yyyy(date_value):
         return date_obj.strftime("%d-%b-%Y")
     except:
         return ""
-
-def highlight_pending(val):
-    try:
-        val = float(val)
-        if val > 10:
-            return 'background-color: tomato; color: white; font-weight: bold'
-        elif val > 0:
-            return 'background-color: lightyellow; font-weight: bold'
-        else:
-            return ''
-    except:
-        return ''
-
-def highlight_low_supply(row):
-    try:
-        if float(row["Supply %"]) < 90:
-            return ['color: red'] * len(row)  # Red text, normal background
-    except:
-        pass
-    return [''] * len(row)
 
 def get_metrics():
     base_query = """
@@ -146,6 +137,22 @@ alt.themes.enable("dark")
 
 #######################
 # CSS styling
+
+st.markdown(
+    """
+    <style>
+    .ag-header {
+        background-color: #1976d2 !important; /* Example: deep blue */
+    }
+    .ag-header-cell, .ag-header-group-cell {
+        background-color: #1976d2 !important;
+        color: white !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 st.markdown("""
 <style>
 
@@ -383,15 +390,16 @@ if st.session_state.selected_metric != "None":
         gb.configure_column("Item Code", filter=True)
         gb.configure_column("S No.", width = 100, filter=False)
         gb.configure_column("Item Name", filter=True, width = 500)
-        gb.configure_column("Stock Qty", type=["numericColumn", "customNumericFormat"], precision=0)
-        gb.configure_column("Pending Supply", type=["numericColumn", "customNumericFormat"], precision=0)
-        gb.configure_column("Stock Position", type=["numericColumn", "customNumericFormat"], precision=2)
+        gb.configure_column("Stock Qty", type=["numericColumn", "customNumericFormat"], precision=0, valueFormatter="x.toLocaleString()")
+        gb.configure_column("Pending Supply", type=["numericColumn", "customNumericFormat"], precision=0, valueFormatter="x.toLocaleString()")
+        gb.configure_column("Stock Position", type=["numericColumn", "customNumericFormat"], precision=2, valueFormatter="x.toLocaleString()")
         gb.configure_selection(selection_mode="single", use_checkbox=False)
         gb.configure_grid_options(floatingFilter=False)
 
         rc_cellstyle = {'styleConditions': [
             {'condition': "params.value == 'Not Avl'", 'style': {'color': 'red'}}
         ]}
+
         gb.configure_column("RC Status", filter=False)
 
         grid_options = gb.build()
@@ -403,7 +411,8 @@ if st.session_state.selected_metric != "None":
             height=350,
             width='100%',
             enable_enterprise_modules=False,
-            fit_columns_on_grid_load=True
+            fit_columns_on_grid_load=True,
+            theme = "blue"
         )
 
         # Download Table Button
@@ -435,11 +444,15 @@ if st.session_state.selected_metric != "None":
         item_code = selected_row["Item Code"]
         item_name = selected_row["Item Name"]
         
-        st.markdown(f"**Showing PO Details for:** {item_name}")
+        st.markdown(
+            f'<span style="color:black; font-weight:bold;">Showing PO Details for:</span> {item_name}',
+            unsafe_allow_html=True
+        )
 
         # Query
         detail_query = f"""
         SELECT 
+        ROW_NUMBER() OVER () as "S No.", 
         po_number as "PO No.",
         po_date as "PO Date",
         supplier as "Supplier Name",
@@ -458,7 +471,7 @@ if st.session_state.selected_metric != "None":
 
         if not po_data.empty:
             po_df = pd.DataFrame(po_data, columns=[
-                "PO No.","PO Date", "Supplier Name",
+                "S No.", "PO No.","PO Date", "Supplier Name",
                 "PO Qty", "Received Qty", "Supply %", "Pending Qty", "Scheduled Delivery Date"
             ])
 
@@ -471,14 +484,20 @@ if st.session_state.selected_metric != "None":
 
             po_df["Supply %"] = po_df["Supply %"].apply(lambda x: f"{int(round(x))}%" if pd.notnull(x) else "0%")
 
-            styled_df = po_df.style.apply(highlight_low_supply, axis=1)
+            po_df = po_df.set_index('S No.')
 
-            st.dataframe(styled_df, hide_index=True)
+            styled_df = po_df.style.apply(highlight_low_supply, axis=1)
+            st.write(styled_df, index=False)
 
         else:
             st.info("No purchase orders found for this item.")
 
-        st.markdown(f"**Showing RC Details for:** {item_name}")
+
+        st.markdown("<br>", unsafe_allow_html=True)
+        st.markdown(
+            f'<span style="color:black; font-weight:bold;">Showing RC Details for:</span> {item_name}',
+            unsafe_allow_html=True
+        )
 
         # Query
         detail_rc_query = f"""
@@ -512,7 +531,7 @@ if st.session_state.selected_metric != "None":
         else:
             st.info("No active rate contracts found for this item.")
 
-st.markdown("<br>", unsafe_allow_html=True)
+
 
 
 
