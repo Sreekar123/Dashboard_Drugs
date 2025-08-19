@@ -502,7 +502,7 @@ if st.session_state.selected_metric != "None":
         # Query
         detail_rc_query = f"""
         SELECT 
-        ROW_NUMBER() OVER () as "S No.", 
+        ROW_NUMBER() OVER (ORDER BY contract_to_date DESC, rate_contract_level ASC) as "S No.", 
         supplier as "Supplier Name",
         rate as "Rate",
         rate_unit as "Rate Unit",
