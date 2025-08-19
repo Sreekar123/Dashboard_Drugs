@@ -297,7 +297,7 @@ with col3:
     clickable_metric("1-3 Months", str(mid_1_3), "#FFFACD", "t_mid_1_3")
 
 with col4:
-    clickable_metric("< 1 Month", str(below_1), "#FFFACD", "t_below_1")
+    clickable_metric("< 1 Month", str(below_1), "#FFD6D6", "t_below_1")
 
 with col5:
     clickable_metric("Zero Stock", str(zero), "#FF7F7F", "t_zero")

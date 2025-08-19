@@ -82,7 +82,7 @@ if selected_sort == ">3 month Items":
 # 9. Plot vertical stacked bar chart
 fig = go.Figure()
 categories = [">3 months", "1-3 months", "<1 month"]
-colors = ["skyblue", "lightgreen", "orange"]
+colors = ["#90EE90", "#FFFACD", "#FFD6D6"]
 
 for cat, color in zip(categories, colors):
     fig.add_trace(go.Bar(
@@ -101,7 +101,7 @@ if selected_category == "Priority Drugs":
         x=summary["warehouse_name"],
         y=summary["No Stock"],
         name="No Stock",
-        marker=dict(color="red"),
+        marker=dict(color="#FF7F7F"),
         text=summary["No Stock"],
         textposition="outside",
         textangle=0,
@@ -112,7 +112,7 @@ else:
         x=summary["warehouse_name"],
         y=summary["No Stock"],
         name="No Stock",
-        marker=dict(color="red"),
+        marker=dict(color="#FF7F7F"),
         text=summary["No Stock"],
         textposition="auto",
         textangle=0,
