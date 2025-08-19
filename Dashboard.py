@@ -435,7 +435,7 @@ if st.session_state.selected_metric != "None":
         item_code = selected_row["Item Code"]
         item_name = selected_row["Item Name"]
         
-        st.markdown(f"**Showing PO Details for: **{item_name}")
+        st.markdown(f"**Showing PO Details for:** {item_name}")
 
         # Query
         detail_query = f"""
@@ -478,7 +478,7 @@ if st.session_state.selected_metric != "None":
         else:
             st.info("No purchase orders found for this item.")
 
-        st.markdown(f"**Showing RC Details for: **{item_name}")
+        st.markdown(f"**Showing RC Details for:** {item_name}")
 
         # Query
         detail_rc_query = f"""
