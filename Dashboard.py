@@ -313,8 +313,13 @@ if st.session_state.selected_metric != "None":
             ROUND(AVG(COALESCE(a.{stock_pos_col}, 0)), 2) as "Stock Position",
             (SELECT (SUM(COALESCE(po_qty,0)) - SUM(COALESCE(received_qty,0))) 
              FROM purchase_order_data 
-             WHERE item_code = a.item_code) as "Pending Supply"
+             WHERE item_code = a.item_code) as "Pending Supply",
+            CASE 
+                WHEN rc.item_code IS NOT NULL THEN 'Avl'
+                ELSE 'Not Avl'
+            END as "RC Status"
         FROM stock_data a
+        LEFT JOIN rate_contract_data rc ON rc.item_code = a.item_code
         WHERE 1=1
     '''
 
@@ -350,7 +355,7 @@ if st.session_state.selected_metric != "None":
         base_query += " AND " + " AND ".join(filters)
 
     # Grouping
-    base_query += " GROUP BY a.item_code"
+    base_query += " GROUP BY a.item_code, rc.item_code"
 
     # Final query
     final_query = base_query + ";"
@@ -362,7 +367,8 @@ if st.session_state.selected_metric != "None":
     if not data.empty:
         df = pd.DataFrame(data, columns=[
             "S No.", "Item Code", "Item Name", "EML/AML", "Priority Status",
-            "Cons/Dem Type", "Stock Qty", "Stock Position", "Pending Supply"
+            "Cons/Dem Type", "Stock Qty", "Stock Position", "Pending Supply",
+            "RC Status"
         ])
 
         # Format number columns (keep numeric types for AgGrid)
@@ -372,6 +378,7 @@ if st.session_state.selected_metric != "None":
 
         # Build AgGrid config
         gb = GridOptionsBuilder.from_dataframe(df)
+
         gb.configure_default_column(sortable=True, resizable=True, filter=False, wrapHeaderText=True, autoHeaderHeight=True)
         gb.configure_column("Item Code", filter=True)
         gb.configure_column("S No.", width = 100, filter=False)
@@ -381,6 +388,12 @@ if st.session_state.selected_metric != "None":
         gb.configure_column("Stock Position", type=["numericColumn", "customNumericFormat"], precision=2)
         gb.configure_selection(selection_mode="single", use_checkbox=False)
         gb.configure_grid_options(floatingFilter=False)
+
+        rc_cellstyle = {'styleConditions': [
+            {'condition': "params.value == 'Not Avl'", 'style': {'color': 'red'}}
+        ]}
+        gb.configure_column("RC Status", filter=False)
+
         grid_options = gb.build()
 
         # Render table
@@ -422,9 +435,9 @@ if st.session_state.selected_metric != "None":
         item_code = selected_row["Item Code"]
         item_name = selected_row["Item Name"]
         
-        st.markdown(f"**Showing PO Details for: {item_name}**")
+        st.markdown(f"**Showing PO Details for: **{item_name}")
 
-        # Sample query or logic
+        # Query
         detail_query = f"""
         SELECT 
         po_number as "PO No.",
@@ -461,8 +474,43 @@ if st.session_state.selected_metric != "None":
             styled_df = po_df.style.apply(highlight_low_supply, axis=1)
 
             st.dataframe(styled_df, hide_index=True)
+
         else:
             st.info("No purchase orders found for this item.")
+
+        st.markdown(f"**Showing RC Details for: **{item_name}")
+
+        # Query
+        detail_rc_query = f"""
+        SELECT 
+        ROW_NUMBER() OVER () as "S No.", 
+        supplier as "Supplier Name",
+        rate as "Rate",
+        rate_unit as "Rate Unit",
+        tender_date as "Tender Date",
+        contract_from_date as "RC Start Date",
+        contract_to_date as "RC End Date",
+        rate_contract_level as "Bid Level"                
+        FROM rate_contract_data 
+        WHERE item_code = '{item_code}'
+        ORDER BY contract_to_date DESC, rate_contract_level ASC
+        """
+        rc_data = run_query(detail_rc_query)
+
+        if not rc_data.empty:
+            rc_df = pd.DataFrame(rc_data, columns=[
+                "S No.","Supplier Name", "Rate", "Rate Unit",
+                "Tender Date", "RC Start Date", "RC End Date", "Bid Level"
+            ])
+
+            # Format Dates
+            for col in ["Tender Date", "RC Start Date", "RC End Date"]:
+                rc_df[col] = rc_df[col].apply(format_date_dd_mmm_yyyy)
+
+            st.dataframe(rc_df, hide_index=True)
+
+        else:
+            st.info("No active rate contracts found for this item.")
 
 st.markdown("<br>", unsafe_allow_html=True)
 
