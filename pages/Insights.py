@@ -359,7 +359,7 @@ if st.button("Show List", key="low_stock"):
 
         with col2:
                 st.download_button(
-                    label="⬇️ Download CSV",
+                    label="⬇️ Download Table",
                     data=csv_data,
                     file_name="list.csv",
                     mime="text/csv",
