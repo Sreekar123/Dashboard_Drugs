@@ -248,6 +248,8 @@ if st.session_state.selected_metric in ("exp_3m_p", "exp_3m"):
 
     df = run_query(rc_query)
 
+    df['S No.'] = df['S No.'].where(~df['Item Code'].duplicated())
+
     if not df.empty:
         st.markdown("<br>", unsafe_allow_html=True)
         st.markdown("#### Rate Contracts expiring within 3 months")
