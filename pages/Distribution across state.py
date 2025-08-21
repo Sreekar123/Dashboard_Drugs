@@ -116,9 +116,13 @@ else:
         text=summary["No Stock"],
         textposition="auto",
         textangle=0,
-        textfont=dict(size=10, color="white", **{"weight": "bold"})
+        textfont=dict(size=10, color="black", **{"weight": "bold"})
     ))
 
+
+stacked_heights = summary[categories + ["No Stock"]].sum(axis=1)
+y_max = stacked_heights.max()
+buffer = 15
 
 # 10. Layout config
 fig.update_layout(
@@ -126,7 +130,8 @@ fig.update_layout(
     title='Stock Position Across CMSs',
     xaxis_title="CMS Name",
     yaxis_title="No. of Items",
-    #xaxis=dict(tickangle=-45, tickfont=dict(size=10)),
+    #xaxis=dict(tickangle=-45, tickfont=dict
+    yaxis=dict(range=[0, y_max+buffer]),
     height=600,
 )
 
