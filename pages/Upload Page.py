@@ -77,11 +77,13 @@ if po_file:
     try:
         # Read the uploaded file
         if po_file.name.endswith('.csv'):
-            po_df = pd.read_csv(po_file)
+            po_df = pd.read_csv(po_file, dtype={'Item Code': str})
         else:
-            po_df = pd.read_excel(po_file)
+            po_df = pd.read_excel(po_file, dtype={'Item Code': str})
 
         st.success("File uploaded successfully!")
+        #po_df["Item Code"] = po_df["Item Code"].apply(lambda x: str(x).strip() if pd.notnull(x) else "")
+
         st.dataframe(po_df.head())
 
         if st.button("Insert PO Data into Database"):
@@ -90,6 +92,7 @@ if po_file:
 
             entry_date = datetime.today().date()
 
+            
             # Prepare records list
             records = []
             for _, row in po_df.iterrows():
@@ -140,9 +143,9 @@ if rc_file:
     try:
         # Read the uploaded file
         if rc_file.name.endswith('.csv'):
-            rc_df = pd.read_csv(rc_file)
+            rc_df = pd.read_csv(rc_file, dtype={'Item Code': str})
         else:
-            rc_df = pd.read_excel(rc_file)
+            rc_df = pd.read_excel(rc_file, dtype={'Item Code': str})
 
         st.success("File uploaded successfully!")
         st.dataframe(rc_df.head())
